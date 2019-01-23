@@ -5,3 +5,6 @@ export { default as SecondaryBanner } from './SecondaryBanner';
 export { default as PrimaryBanner } from './PrimaryBanner';
 export { default as CardCTA } from './CardCTA';
 export { default as CardCityList } from './CardCityList';
+export { default as ListCardHighlight } from './ListCardHighlight';
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PrimaryBanner,CardHighlight } from '../components'
+import { PrimaryBanner, ListCardHighlight } from '../components'
 import { home } from '../data/home.json'
 
 
@@ -8,17 +8,7 @@ const Home = () =>  {
         <div>
             <PrimaryBanner banner={home} />
             <section className="home-content">
-                <div className="container">
-                    <div className="row">
-                    {
-                        home.cardList.map(card => {
-                            return (
-                                <CardHighlight card={card} />
-                            )
-                        })
-                    }
-                    </div>
-                </div>
+                <ListCardHighlight cardList={home.cardList} />
             </section>
         </div>
     )

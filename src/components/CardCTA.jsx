@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-
 const CardCTA = ({card}) => {
     return (
         <div className="section-content">
@@ -14,7 +13,7 @@ const CardCTA = ({card}) => {
                 </p>
                 <div className="card-page-cta">
                     <Link to="/fale-conosco" className="btn btn--primary">
-                    {card.cta}
+                        {card.cta}
                     </Link>
                 </div>
             </div>
