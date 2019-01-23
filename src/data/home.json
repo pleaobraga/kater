@@ -1,0 +1,27 @@
+{
+    "home": {
+        "title": "Soluções em internet com fibra ótica",
+        "subtitle": "A solução completa para quem precisa de velocidade e segurança",
+
+        "cardList": [
+            {
+                "title": "Quem somos",
+                "titleContent": "Soluções em internet com fibra ótica", 
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cta": "Ver mais"
+            },
+            {
+                "title": "Quem somos",
+                "titleContent": "Soluções em internet com fibra ótica", 
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cta": "Ver mais"
+            },
+            {
+                "title": "Quem somos",
+                "titleContent": "Soluções em internet com fibra ótica", 
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "cta": "Ver mais"
+            }
+        ]
+    }
+}

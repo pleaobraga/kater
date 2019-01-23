@@ -1,0 +1,27 @@
+{
+    "footer": {
+        "list": {
+            "cities": [
+                {
+                    "name": "Cidade 1",
+                    "phone": "031 2345-2222",
+                    "email": "email@site.com.br"
+                }, {
+                    "name": "Cidade 2",
+                    "phone": "031 2345-2222",
+                    "email": "email@site.com.br"
+                },
+                {
+                    "name": "Cidade 3",
+                    "phone": "031 2345-2222",
+                    "email": "email@site.com.br"
+                },
+                {
+                    "name": "Cidade 4",
+                    "phone": "031 2345-2222",
+                    "email": "email@site.com.br"
+                }
+            ]
+        }
+    }
+}

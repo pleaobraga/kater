@@ -1,0 +1,29 @@
+{
+    "client": {
+        "title": "Soluções em internet com fibra ótica",
+        "subtitle": "A solução completa para quem precisa de velocidade e segurança",
+
+        "card": {
+            "title": "Nossos planos",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat perferendis, illum nam esse blanditiis, obcaecati inventore, numquam quidem reiciendis quibusdam.",
+            
+            "list": {
+                "title": "Em qual cidade fica sua casa?",
+                "cities": [
+                    {
+                        "name": "Cidade 1",
+                        "link": "/cidade1"
+                    },
+                    {
+                        "name": "Cidade 2",
+                        "link": "/cidade2"
+                    },
+                    {
+                        "name": "Cidade 3",
+                        "link": "/cidade3"
+                    }
+                ]
+            }
+        }
+    }
+}

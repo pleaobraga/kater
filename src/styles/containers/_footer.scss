@@ -1,0 +1,35 @@
+.footer{
+    background-color: $footerBg;
+    padding: 50px 0;
+    color: $footerColor;
+    
+    &-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-item{
+        &-city{
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        &-tel{
+            margin: 5px 0;
+            a{
+                color: $textColor;
+                text-decoration: none;
+                font-size: 14px;
+            }
+
+        }
+        &-mail{
+            a{
+                color: $textColor;
+                text-decoration: none;
+                font-size: 14px;
+            }
+        }
+    }
+}

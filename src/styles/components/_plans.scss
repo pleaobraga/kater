@@ -1,0 +1,23 @@
+.plans-choices{
+    margin-top: 30px;
+    width: 400px;
+    &-question{
+        background: #58aca2;
+        color: #FFF;
+        font-weight: bold;
+        padding: 12px;
+    }
+    &-list{
+    }
+    &-item{
+        border-left: 1px solid #d1d8d4;
+        border-right: 1px solid #d1d8d4;
+        border-bottom: 1px solid #d1d8d4;
+    }
+    &-link{
+        color: $textColor;
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+    }
+}
