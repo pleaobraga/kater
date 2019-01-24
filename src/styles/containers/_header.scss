@@ -9,8 +9,13 @@
     }
 
     &-mobile {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        background-color: white;
         padding: 2.2rem;
         padding-bottom: 0; 
+        border-bottom: 1px solid black;
 
         &--logo{
             img{
