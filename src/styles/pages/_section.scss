@@ -3,7 +3,7 @@
         background-color: $heroBg;
         text-align: center;
         color: $heroText;
-        padding: 14rem 0;
+        padding: 10rem 0;
 
         &_card {
             background: url(http://lorempixel.com/1920/1080/) no-repeat scroll 0 0 transparent;
@@ -34,15 +34,46 @@
             font-size: 2rem;
             position: relative;
         }
-    
-        &--content{
-            // height: 90vh;
+
+        @media (max-width: 992px) {
+            &_card {
+              padding: 13rem 0 20rem;
+            }
+          }
+
+        @media (max-width: 768px) {
+            padding: 13rem 0 12rem;
+
+            &_card {
+                padding: 13rem 0 26rem;
+            }
+            &--title{
+                font-size: 3rem;
+                margin-bottom: 2rem;
+                text-align: left;
+                padding-left: 2.2rem;
+                padding-right: 2.2rem;
+            }
+        
+            &--subtitle{
+                font-size: 1.5rem;
+                text-align: left;
+                padding-left: 2.2rem;
+                padding-right: 2.2rem;
+            }
         }
+
+
+
     }
 
 
     &-content {
         margin: 5rem 5rem 2rem;
+
+        @media (max-width: 768px) {
+            margin: 0rem 0rem 2rem;
+        }
     }
 
     

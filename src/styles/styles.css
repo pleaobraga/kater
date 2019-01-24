@@ -50,8 +50,9 @@ table {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem; }
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  width: 100%; }
   .container--content {
     display: flex;
     width: 100%;
@@ -63,9 +64,9 @@ table {
     .container--content_spread {
       justify-content: space-between; }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .container {
-    width: 750px; } }
+    padding: 0; } }
 
 @media (min-width: 992px) {
   .container {
@@ -728,6 +729,9 @@ table {
 html {
   font-size: 62.5% !important;
   height: 100%; }
+  @media (max-width: 768px) {
+    html {
+      font-size: 50% !important; } }
 
 body {
   box-sizing: border-box;
@@ -762,8 +766,8 @@ body {
   text-align: center;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 14px;
-  padding: 15px 0;
+  font-size: 1.4rem;
+  padding: 1.5rem 0;
   text-decoration: none; }
   .btn--primary {
     background-color: #282a5b;
@@ -790,23 +794,43 @@ body {
     background-size: contain; }
   .card-highlight--content {
     margin-top: -5px;
-    padding: 0 30px 30px; }
+    padding: 0 3rem 3rem; }
   .card-highlight--index {
     color: #848685;
     text-transform: uppercase;
-    font-size: 13px; }
+    font-size: 1.3rem; }
   .card-highlight--title {
     font-size: 22px;
-    margin: 15px 0; }
+    margin: 1.5rem 0; }
   .card-highlight--cta {
     text-align: center;
-    padding: 30px 0 0; }
+    padding: 3rem 0 0; }
     .card-highlight--cta .btn {
       width: 100%; }
+  @media (max-width: 768px) {
+    .card-highlight {
+      max-width: 100%;
+      width: 100%;
+      margin: 0; }
+      .card-highlight--image {
+        background: url("http://lorempixel.com/768/183/") no-repeat scroll 0 0 transparent;
+        height: 183px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 18% 75%, 15% 81%, 12% 75%, 0% 75%);
+        background-size: contain; }
+      .card-highlight--item {
+        border: none; }
+      .card-highlight--content {
+        margin-top: -5px;
+        padding: 0 2.2rem 3rem; }
+      .card-highlight--image {
+        background: url("http://lorempixel.com/768/183/") no-repeat scroll 0 0 transparent;
+        height: 183px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 18% 75%, 15% 81%, 12% 75%, 0% 75%);
+        background-size: contain; } }
 
 .card-page {
   border: 1px solid #d1d8d4;
-  width: 60%;
+  width: 65%;
   margin: -20rem auto 10rem;
   background: #FFFFFF;
   padding: 4rem;
@@ -822,6 +846,11 @@ body {
     margin-top: 30px; }
     .card-page--cta .btn {
       width: 100%; }
+  @media (max-width: 992px) {
+    .card-page {
+      width: 100%;
+      padding: 4rem 2.2rem;
+      margin-bottom: 0; } }
 
 .description-list {
   display: flex;
@@ -872,7 +901,10 @@ body {
   .footer .social-media--link {
     display: inline-block; }
     .footer .social-media--link:not(:last-of-type) {
-      margin-right: 2px; }
+      margin-right: 10px; }
+  @media (max-width: 768px) {
+    .footer {
+      padding: 2rem 2.2rem; } }
 
 .header {
   background-color: #FFFFFF;
@@ -942,7 +974,7 @@ body {
   background-color: #58aca2;
   text-align: center;
   color: #FFFFFF;
-  padding: 14rem 0; }
+  padding: 10rem 0; }
   .section-banner_card {
     background: url(http://lorempixel.com/1920/1080/) no-repeat scroll 0 0 transparent;
     text-align: center;
@@ -964,6 +996,28 @@ body {
     color: #FFFFFF;
     font-size: 2rem;
     position: relative; }
+  @media (max-width: 992px) {
+    .section-banner_card {
+      padding: 13rem 0 20rem; } }
+  @media (max-width: 768px) {
+    .section-banner {
+      padding: 13rem 0 12rem; }
+      .section-banner_card {
+        padding: 13rem 0 26rem; }
+      .section-banner--title {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        padding-left: 2.2rem;
+        padding-right: 2.2rem; }
+      .section-banner--subtitle {
+        font-size: 1.5rem;
+        text-align: left;
+        padding-left: 2.2rem;
+        padding-right: 2.2rem; } }
 
 .section-content {
   margin: 5rem 5rem 2rem; }
+  @media (max-width: 768px) {
+    .section-content {
+      margin: 0rem 0rem 2rem; } }

@@ -11,6 +11,10 @@ html {
     //defines what 1rem is
     font-size: 62.5% !important;
     height: 100%;
+
+    @media (max-width: 768px) {
+        font-size: 50% !important;
+    } 
 }
 
 body{
