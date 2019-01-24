@@ -9,7 +9,7 @@
     }
     &--image{
         background: url('http://lorempixel.com/450/183/') no-repeat scroll 0 0 transparent;
-        height: 180px;
+        height: 160px;
         clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 18% 75%, 15% 81%, 12% 75%, 0% 75%);
         background-size: contain;
 
@@ -46,10 +46,10 @@
 
         &--image{
             background: url('http://lorempixel.com/768/183/') no-repeat scroll 0 0 transparent;
-            height: 183px;
+            width: 100%;
+            height: auto;
             clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 18% 75%, 15% 81%, 12% 75%, 0% 75%);
             background-size: contain;
-    
         }
     
 
@@ -60,14 +60,6 @@
         &--content{
             margin-top: -5px;
             padding: 0 2.2rem 3rem;
-        }
-
-        &--image{
-            background: url('http://lorempixel.com/768/183/') no-repeat scroll 0 0 transparent;
-            height: 183px;
-            clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 18% 75%, 15% 81%, 12% 75%, 0% 75%);
-            background-size: contain;
-    
         }
     
     }
