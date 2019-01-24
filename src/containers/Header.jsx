@@ -4,6 +4,48 @@ import { header } from '../data/header.json'
 
 class Header extends React.Component {
 
+    constructor() {
+        super()
+        this.state = { 
+          width: window.innerWidth,
+          openMenu: false
+        };
+      }
+    
+      updateDimensions = () => {
+        this.setState({
+          height: window.innerHeight, 
+          width: window.innerWidth
+        });
+      }
+
+      handleMenu = (event) => {
+        if(event.target.getAttribute("class") == "menu-icon") {
+            this.state.openMenu === false ? this.openMenu() : this.closeMenu() 
+        } else if(this.state.openMenu === true) {
+            this.closeMenu();
+        }
+      }
+
+      closeMenu = () => {
+        if(this.state.openMenu) {
+            this.setState({openMenu: false})
+        } 
+      }
+
+      openMenu = () => {
+          this.setState({openMenu: true})
+      }
+    
+      componentDidMount() {
+        window.addEventListener("resize", this.updateDimensions);
+        window.addEventListener("click", this.handleMenu);
+      }
+    
+      componentWillUnmount() {
+        window.removeEventListener("resize", this.updateDimensions);
+      }
+
 
     renderMobileVersion() {
         return (
@@ -12,11 +54,11 @@ class Header extends React.Component {
                         <Link className="header-mobile--logo" to="/" >
                             <img src="/assets/images/kater.jpg" alt="Logo" />
                         </Link>
-                        <button className="menu-button" >
+                        <button className="menu-button">
                             <img src="/assets/images/icons/hamburguer-icon.svg" alt="Menu Button" className="menu-icon"/>
                         </button>
                     </div>
-                    <nav className="header-nav-mobile">
+                    <nav className={`header-nav-mobile ${this.state.openMenu ? "" : "hidden"}`}>
                         <ul className="header-nav-mobile--list">
                             {
                                 header.menuList.map((menuItem, index) => {
@@ -74,9 +116,14 @@ class Header extends React.Component {
     }
 
     render() {
+
+        const { width } = this.state 
+
         return (
             <React.Fragment>
-                {this.renderMobileVersion()}
+                {
+                    width > 991 ? this.renderDesktopVersion() : this.renderMobileVersion()
+                }
             </React.Fragment>
         );
     }

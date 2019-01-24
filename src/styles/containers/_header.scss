@@ -17,6 +17,10 @@
                 width: 10rem;
             }
         }
+
+        .container--content {
+            margin-bottom: 15px;
+        }
     }
 
 
@@ -38,8 +42,6 @@
         }
 
         &-mobile {
-
-            margin-top: 15px;
             
             &--list{
                 display: flex;
