@@ -15,16 +15,16 @@ const CardCityList = ({card}) => {
                 </p>
 
                 <div className="plans-choices">
-                    <p className="plans-choices-question">
+                    <p className="plans-choices--question">
                         {card.list.title}
                     </p>
 
-                    <ul className="plans-choices-list">
+                    <ul className="plans-choices--list">
                         {
                             card.list.cities.map(city => {
                                 return(
-                                    <li className="plans-choices-item">
-                                        <a href={city.link} className="plans-choices-link">
+                                    <li className="plans-choices--item">
+                                        <a href={city.link} className="plans-choices--link">
                                             {city.name}
                                         </a>
                                     </li>

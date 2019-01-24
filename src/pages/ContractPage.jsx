@@ -1,6 +1,6 @@
 import React from 'react';
 import { SecondaryBanner, CardCityList } from '../components'
-import { contract } from '../data/client.json';
+import { contract } from '../data/contract.json';
 
 
 const ContractPage = () => {
