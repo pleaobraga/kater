@@ -5,14 +5,12 @@ class CardHighlight extends React.Component {
   constructor() {
     super()
     this.state = { 
-      height: window.innerHeight, 
       width: window.innerWidth
     };
   }
 
   updateDimensions = () => {
     this.setState({
-      height: window.innerHeight, 
       width: window.innerWidth
     });
   }
@@ -27,12 +25,13 @@ class CardHighlight extends React.Component {
 
   render() {
     const { card } = this.props;
+    const { width } = this.state;
 
     return (
       <div className="card-highlight">
           <div className="card-highlight--item">
             
-            <div className="card-highlight--image"></div>
+            <img className="card-highlight--image" src={ width > 728 ? "http://lorempixel.com/450/183/" : "http://lorempixel.com/768/183/"} alt="backgound image" />
             
             <div className="card-highlight--content">
               

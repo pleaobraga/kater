@@ -8,10 +8,12 @@
         border: 1px solid #d1d8d4;
     }
     &--image{
-        background: url('http://lorempixel.com/450/183/') no-repeat scroll 0 0 transparent;
-        height: 160px;
+        //background: url('http://lorempixel.com/450/183/') no-repeat scroll 0 0 transparent;
         clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 18% 75%, 15% 81%, 12% 75%, 0% 75%);
         background-size: contain;
+        background-position:center;
+        width: 100%;
+        height: auto;
 
     }
     &--content{
@@ -43,14 +45,6 @@
         max-width: 100%;
         width: 100%;
         margin: 0;
-
-        &--image{
-            background: url('http://lorempixel.com/768/183/') no-repeat scroll 0 0 transparent;
-            width: 100%;
-            height: auto;
-            clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 18% 75%, 15% 81%, 12% 75%, 0% 75%);
-            background-size: contain;
-        }
     
 
         &--item{
