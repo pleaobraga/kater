@@ -6,17 +6,17 @@
             {
                 "name": "Linkedin",
                 "link": "https://linkedin.com",
-                "img": "/"
+                "img": "/assets/images/icons/linkedin.svg"
             }, 
             {
                 "name": "Instagran",
                 "link": "https://linkedin.com",
-                "img": "/"
+                "img": "/assets/images/icons/instagram.svg"
             }, 
             {
                 "name": "Facebook",
                 "link": "https://linkedin.com",
-                "img": "/"
+                "img": "/assets/images/icons/facebook.svg"
             }
         ]
         

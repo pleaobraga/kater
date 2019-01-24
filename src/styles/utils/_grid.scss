@@ -11,6 +11,10 @@
       justify-content: center;
       align-items: baseline;
 
+      &_center{
+        align-items: center;
+      }
+
       &_spread{
         justify-content: space-between;
       }

@@ -16,4 +16,14 @@
             color: $footerColorLight;
         }
     }
+
+    .social-media {
+        &--link {
+            display: inline-block;
+            
+            &:not(:last-of-type) {
+                margin-right: 2px;
+            }
+        }
+    }
 }
