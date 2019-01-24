@@ -4,11 +4,11 @@ import CardHighlight from './CardHighlight'
 const ListCardHighlight = ({cardList}) => {
     return (
         <div className="container">
-            <div className="row">
+            <div className="container--content">
             {
-                cardList.map(card => {
+                cardList.map((card, index) => {
                     return (
-                        <CardHighlight card={card} />
+                        <CardHighlight key={index} card={card} />
                     )
                 })
             }

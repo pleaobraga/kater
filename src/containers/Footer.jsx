@@ -5,37 +5,23 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <div className="row">
-          <div className="col-md-10 col-md-offset-1">
-            <div className="footer-container">
-              {
-                footer.list.cities.map(city => {
+        <div className="container--content container--content_spread">
+          <div className="text-content">
+            <h4 className="text-content--title">{footer.title}</h4>
+            <h5 className="text-content--subtitle">{footer.subTitle}</h5>
+          </div>
+          <div className="sodial-media">
+            {
+              footer.socialList.map((social, index) => {
 
-                  return(
-                    <div className="footer-item">
-
-                      <div className="footer-item-city">
-                        { city.name }
-                      </div>
-
-                      <p className="footer-item-tel">
-                        <a href="">
-                        { city.phone }
-                        </a>
-                      </p>
-
-                      <p className="footer-item-mail">
-                        <a href={`mailto:${city.email}`}>
-                        { city.email }
-                        </a>
-                      </p>
-
-                    </div>
-                  )
-                })
-              }
-
-            </div>
+                return(
+                  <a key={index} className="social-media--link" href={social.link} target="blank" >
+                    <img src={social.img} alt={`${social.name} logo`} className="social-media--logo"/>
+                  </a>
+                )
+              })
+            }
+          
           </div>
         </div>
       </div>

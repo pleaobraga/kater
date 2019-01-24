@@ -5,12 +5,15 @@ import { home } from '../data/home.json'
 
 const Home = () =>  {
     return (
-        <div>
-            <PrimaryBanner banner={home} />
-            <section className="home-content">
+        < React.Fragment>
+            <section className="section-banner">
+                <PrimaryBanner banner={home} />
+            </section>
+            <section className="section-content">
                 <ListCardHighlight cardList={home.cardList} />
             </section>
-        </div>
+        </ React.Fragment>
+
     )
 }
 

@@ -1,3 +1,6 @@
+html {
+  font-size: 62.5% !important; }
+
 body {
   font-size: 16px;
   color: #000000;
@@ -55,8 +58,16 @@ table {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
+  .container--content {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline; }
+    .container--content_spread {
+      justify-content: space-between; }
 
 @media (min-width: 768px) {
   .container {
@@ -748,52 +759,67 @@ table {
 .feedback {
   margin-top: 10px; }
 
-.card-highlight-item {
-  border: 1px solid #d1d8d4; }
-
-.card-highlight-image {
-  background: url("http://lorempixel.com/450/183/") no-repeat scroll 0 0 transparent;
-  height: 180px;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 18% 75%, 15% 81%, 12% 75%, 0% 75%);
-  background-size: contain; }
-
-.card-highlight-content {
-  margin-top: -5px;
-  padding: 0 30px 30px; }
-
-.card-highlight-index {
-  color: #848685;
-  text-transform: uppercase;
-  font-size: 13px; }
-
-.card-highlight-title {
-  font-size: 22px;
-  margin: 15px 0; }
-
-.card-highlight-cta {
-  text-align: center;
-  padding: 30px 0 0; }
-  .card-highlight-cta .btn {
-    width: 100%; }
+.card-highlight {
+  max-width: 320px;
+  margin: 0 3rem 3rem; }
+  .card-highlight--item {
+    border: 1px solid #d1d8d4; }
+  .card-highlight--image {
+    background: url("http://lorempixel.com/450/183/") no-repeat scroll 0 0 transparent;
+    height: 180px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 18% 75%, 15% 81%, 12% 75%, 0% 75%);
+    background-size: contain; }
+  .card-highlight--content {
+    margin-top: -5px;
+    padding: 0 30px 30px; }
+  .card-highlight--index {
+    color: #848685;
+    text-transform: uppercase;
+    font-size: 13px; }
+  .card-highlight--title {
+    font-size: 22px;
+    margin: 15px 0; }
+  .card-highlight--cta {
+    text-align: center;
+    padding: 30px 0 0; }
+    .card-highlight--cta .btn {
+      width: 100%; }
 
 .card-page {
   border: 1px solid #d1d8d4;
   width: 60%;
-  margin: -200px auto 100px;
+  margin: -20rem auto 10rem;
   background: #FFFFFF;
-  padding: 40px;
+  padding: 4rem;
   position: relative; }
-  .card-page-title {
-    font-size: 20px;
+  .card-page--title {
+    font-size: 2rem;
     text-transform: uppercase;
-    margin-bottom: 20px; }
-  .card-page-text {
-    font-size: 16px;
+    margin-bottom: 2rem; }
+  .card-page--text {
+    font-size: 1.6rem;
     line-height: 1.5; }
-  .card-page-cta {
+  .card-page--cta {
     margin-top: 30px; }
-    .card-page-cta .btn {
+    .card-page--cta .btn {
       width: 100%; }
+  .card-page .description-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    margin-top: 2rem; }
+    .card-page .description-list--item {
+      display: flex;
+      align-items: center; }
+      .card-page .description-list--item:not(:last-of-type) {
+        margin-bottom: 0.7rem; }
+      .card-page .description-list--item span {
+        display: inline-block;
+        background: #000;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        margin-right: 4px; }
 
 .plans-choices {
   margin-top: 30px;
@@ -815,58 +841,33 @@ table {
 
 .footer {
   background-color: #efefef;
-  padding: 50px 0;
+  padding: 2rem 0;
   color: #000000; }
-  .footer-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-  .footer-item-city {
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: bold; }
-  .footer-item-tel {
-    margin: 5px 0; }
-    .footer-item-tel a {
-      color: #000000;
-      text-decoration: none;
-      font-size: 14px; }
-  .footer-item-mail a {
-    color: #000000;
-    text-decoration: none;
-    font-size: 14px; }
+  .footer .text-content--title {
+    margin-bottom: .7rem;
+    font-size: 1.3rem; }
+  .footer .text-content--subtitle {
+    font-size: 1rem;
+    color: #929292; }
 
 .header {
   background-color: #FFFFFF;
-  padding: 22px; }
+  padding: 2.2rem; }
   .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between; }
   .header-logo img {
-    width: 180px; }
+    width: 18rem; }
   .header-nav-list {
     display: flex; }
-  .header-nav-item {
-    margin-left: 15px; }
+  .header-nav-item:not(:first-of-type) {
+    margin-left: 1.5rem; }
   .header-nav-link {
     color: #282a5b;
     font-weight: bold;
     text-decoration: none;
-    font-size: 16px; }
-
-.hero {
-  background-color: #58aca2;
-  text-align: center;
-  color: #FFFFFF;
-  padding: 140px 0; }
-  .hero-title {
-    font-size: 38px;
-    text-transform: uppercase;
-    margin-bottom: 5px; }
-  .hero-subtitle {
-    font-size: 20px;
-    font-weight: normal; }
+    font-size: 1.6rem; }
 
 .signup {
   background-color: #FFFFFF; }
@@ -875,25 +876,31 @@ table {
   padding: 30px 0; }
 
 .section-banner {
-  background: url(http://lorempixel.com/1920/1080/) no-repeat scroll 0 0 transparent;
+  background-color: #58aca2;
   text-align: center;
-  padding: 100px 0 300px;
-  position: relative; }
-  .section-banner:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 100%;
-    height: 100%; }
-
-.section-title {
   color: #FFFFFF;
-  font-size: 40px;
-  position: relative; }
+  padding: 14rem 0; }
+  .section-banner_card {
+    background: url(http://lorempixel.com/1920/1080/) no-repeat scroll 0 0 transparent;
+    text-align: center;
+    padding: 10rem 0 25rem;
+    position: relative; }
+    .section-banner_card:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      width: 100%;
+      height: 100%; }
+  .section-banner--title {
+    color: #FFFFFF;
+    font-size: 4rem;
+    position: relative; }
+  .section-banner--subtitle {
+    color: #FFFFFF;
+    font-size: 2rem;
+    position: relative; }
 
-.section-subtitle {
-  color: #FFFFFF;
-  font-size: 20px;
-  position: relative; }
+.section-content {
+  margin: 5rem 5rem 2rem; }

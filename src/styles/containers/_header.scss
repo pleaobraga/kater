@@ -1,6 +1,6 @@
 .header{
     background-color: $headerBg;
-    padding: 22px;
+    padding: 2.2rem;
     
     
     &-container{
@@ -10,22 +10,26 @@
     }
     &-logo{
         img{
-            width: 180px;
+            width: 18rem;
         }
     }
+
+
     &-nav{
         &-list{
             display: flex;
 
         }
         &-item{
-            margin-left: 15px;
+            &:not(:first-of-type) {
+                margin-left: 1.5rem;
+            }
         }
         &-link{
             color: $headerNav;
             font-weight: bold;
             text-decoration: none;
-            font-size: 16px;
+            font-size: 1.6rem;
         }
     }
 }

@@ -1,31 +1,36 @@
 .card-highlight{
-    &-item{
+
+    max-width: 320px;
+    margin: 0 3rem 3rem;
+
+
+    &--item{
         border: 1px solid #d1d8d4;
     }
-    &-image{
+    &--image{
         background: url('http://lorempixel.com/450/183/') no-repeat scroll 0 0 transparent;
         height: 180px;
         clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 18% 75%, 15% 81%, 12% 75%, 0% 75%);
         background-size: contain;
 
     }
-    &-content{
+    &--content{
         margin-top: -5px;
         padding: 0 30px 30px;
     }
 
-    &-index{
+    &--index{
         color: #848685;
         text-transform: uppercase;
         font-size: 13px;
     }
 
-    &-title{
+    &--title{
         font-size: 22px;
         margin: 15px 0;
     }
 
-    &-cta{
+    &--cta{
         text-align: center;
         padding: 30px 0 0;
 
@@ -41,25 +46,54 @@
 .card-page{
     border: 1px solid #d1d8d4;
     width: 60%;
-    margin: -200px auto 100px;
+    margin: -20rem auto 10rem;
     background: #FFFFFF;
-    padding: 40px;
+    padding: 4rem;
     position: relative;
 
-    &-title{
-        font-size: 20px;
+    &--title{
+        font-size: 2rem;
         text-transform: uppercase;
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
     }
 
-    &-text{
-        font-size: 16px;
+    &--text{
+        font-size: 1.6rem;
         line-height: 1.5;
     }
-    &-cta{
+    &--cta{
         margin-top: 30px;
         .btn{
             width: 100%;
         }
+    }
+
+    .description-list{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.6rem;
+        margin-top: 2rem;
+
+
+
+        &--item {
+            display: flex;
+            align-items: center;
+
+            &:not(:last-of-type){
+                margin-bottom: 0.7rem;
+            }
+
+            span {
+                display: inline-block;
+                background: #000;
+                width: 1rem;
+                height: 1rem;
+                border-radius: 50%;
+                margin-right: 4px;
+            }
+
+        }
+
     }
 }

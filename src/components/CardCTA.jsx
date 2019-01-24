@@ -5,13 +5,22 @@ const CardCTA = ({card}) => {
     return (
         <div className="section-content">
             <div className="card-page">
-                <h4 className="card-page-title">
+                <h4 className="card-page--title">
                     {card.title}
                 </h4>
-                <p className="card-page-text">
+                <p className="card-page--text">
                     {card.content}
                 </p>
-                <div className="card-page-cta">
+
+                {
+                    card.listItens && card.listItens.length > 0 && (
+                        <ul className="description-list" >
+                            {card.listItens.map((text, index )=> <li key={index} className="description-list--item" ><span>&nbsp;</span>{text}</li>)}
+                        </ul>
+                    )
+                }
+
+                <div className="card-page--cta">
                     <Link to="/fale-conosco" className="btn btn--primary">
                         {card.cta}
                     </Link>

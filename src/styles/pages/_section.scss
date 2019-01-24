@@ -1,34 +1,49 @@
 .section{
-    &-banner{
-        background: url(http://lorempixel.com/1920/1080/) no-repeat scroll 0 0 transparent;
+    &-banner {
+        background-color: $heroBg;
         text-align: center;
-        padding: 100px 0 300px;
-        position: relative;
+        color: $heroText;
+        padding: 14rem 0;
 
-        &:before{
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            background-color: rgba(0, 0, 0, 0.3);
-            width: 100%;
-            height: 100%;
+        &_card {
+            background: url(http://lorempixel.com/1920/1080/) no-repeat scroll 0 0 transparent;
+            text-align: center;
+            padding: 10rem 0 25rem;
+            position: relative;
+    
+            &:before{
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                background-color: rgba(0, 0, 0, 0.3);
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+
+        &--title{
+            color: #FFFFFF;
+            font-size: 4rem;
+            position: relative;
+        }
+    
+        &--subtitle{
+            color: #FFFFFF;
+            font-size: 2rem;
+            position: relative;
+        }
+    
+        &--content{
+            // height: 90vh;
         }
     }
 
-    &-title{
-        color: #FFFFFF;
-        font-size: 40px;
-        position: relative;
-    }
-    &-subtitle{
-        color: #FFFFFF;
-        font-size: 20px;
-        position: relative;
+
+    &-content {
+        margin: 5rem 5rem 2rem;
     }
 
-    &-content{
-        // height: 90vh;
-    }
     
 }

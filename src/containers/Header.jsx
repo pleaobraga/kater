@@ -1,31 +1,35 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { header } from '../data/header.json'
 
 const Header = () => {
     return (
         <header className="header">
             <div className="container">
-                <div className="header-container">
-                <div className="header-logo">
-                    <img src={`${process.env.PUBLIC_URL ? process.env.PUBLIC_URL : ''}/assets/images/kater.jpg`} alt="" />
+                <div className="container--content container--content_spread">
+                    <Link className="header-logo" to="/" >
+                        <img src="/assets/images/kater.jpg" alt="Logo" />
+                    </Link>
+                    <nav className="header-nav">
+                        <ul className="header-nav-list">
+                            {
+                                header.menuList.map((menuItem, index) => {
+                                    return menuItem.externalLink ?
+                                    (
+                                        <li key={index}  className="header-nav-item">
+                                            <a href={menuItem.link} target="blanlk" className="header-nav-link">{menuItem.name}</a>
+                                        </li>
+                                    ) : (
+                                        <li key={index} className="header-nav-item">
+                                            <Link to={menuItem.link} className="header-nav-link">{menuItem.name}</Link>
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
+                    </nav>
                 </div>
-                <nav className="header-nav">
-                    <ul className="header-nav-list">
-                        <li className="header-nav-item">
-                            <Link to="/quem-somos" className="header-nav-link">Quem somos</Link>
-                        </li>
-                        <li className="header-nav-item">
-                            <Link to="/onde-estamos" className="header-nav-link">Onde estamos</Link>
-                        </li>
-                        <li className="header-nav-item">
-                            <Link to="/fale-conosco" className="header-nav-link">Fale Conosco</Link>
-                        </li>
-                        <li className="header-nav-item">
-                            <Link to="/area-do-cliente" className="header-nav-link">Área do cliente</Link>
-                        </li>
-                    </ul>
-                </nav>
-                </div>
+
             </div>
         </header>
     );
