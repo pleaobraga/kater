@@ -1,16 +1,21 @@
 .header{
     background-color: $headerBg;
     padding: 2.2rem;
-    
-    
-    &-container{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+
     &-logo{
         img{
             width: 18rem;
+        }
+    }
+
+    &-mobile {
+        padding: 2.2rem;
+        padding-bottom: 0; 
+
+        &--logo{
+            img{
+                width: 10rem;
+            }
         }
     }
 
@@ -31,5 +36,60 @@
             text-decoration: none;
             font-size: 1.6rem;
         }
+
+        &-mobile {
+
+            margin-top: 15px;
+            
+            &--list{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+            }
+            &--item{
+                padding: 1.5rem;
+                width: 100%;
+                width: 100%;
+                text-align: center;
+
+                &:not(:last-of-type) {
+                    border-bottom: 1px solid #000;
+                }
+
+                &:first-of-type {
+                    border-top: 1px solid #000;
+                }
+            }
+            &--link{
+                color: $headerNav;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 1.6rem;
+            }
+        }
     }
+}
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    height: 2.6rem;
+    width: 2.6rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active,
+    &:focus,
+    &:visited {
+        outline: none;
+    }
+
+    .menu-icon {
+        height: 2.6rem;
+        width: 2.6rem;
+    }
+
 }

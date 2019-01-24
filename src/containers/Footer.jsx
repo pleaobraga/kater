@@ -13,7 +13,6 @@ const Footer = () => {
           <div className="sodial-media">
             {
               footer.socialList.map((social, index) => {
-
                 return(
                   <a key={index} className="social-media--link" href={social.link} target="blank" >
                     <img src={social.img} alt={`${social.name} logo`} className="social-media--logo"/>
@@ -21,7 +20,6 @@ const Footer = () => {
                 )
               })
             }
-          
           </div>
         </div>
       </div>
