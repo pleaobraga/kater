@@ -1,12 +1,33 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
 html {
     //defines what 1rem is
     font-size: 62.5% !important;
+    height: 100%;
 }
 
 body{
-    font-size: 16px;
+    box-sizing: border-box;
+    font-size: inherit;
     color: $textColor;
     font-family: $fontBase;
+    min-height: 100%;
 }
 
 
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    height: 100%;
+    
+}

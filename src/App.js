@@ -12,14 +12,16 @@ class App extends Component {
   render() {
     return (
       <HashRouter basename='/'>
-         <div className="wrapper">
+         <div className="app">
+         <div>
             <Header/>
-            <Route exact path='/' component={Home}/>
-            <Route exact path='/quem-somos' component={AboutPage}/>
-            <Route exact path='/onde-estamos' component={WherePage}/>
-            <Route exact path='/fale-conosco' component={ContactPage}/>
-            <Route exact path='/area-do-cliente' component={ClientPage}/>
-            <Footer/>
+              <Route exact path='/' component={Home}/>
+              <Route exact path='/quem-somos' component={AboutPage}/>
+              <Route exact path='/onde-estamos' component={WherePage}/>
+              <Route exact path='/fale-conosco' component={ContactPage}/>
+              <Route exact path='/area-do-cliente' component={ClientPage}/>
+         </div>
+          <Footer/>
          </div>
      </HashRouter>
     );
