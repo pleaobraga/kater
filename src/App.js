@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { HashRouter, Route } from 'react-router-dom';
 
 // pages
-import { Home, AboutPage, WherePage, ContactPage, ClientPage } from './pages';
+import { Home, AboutPage, WherePage, ContactPage, ContractPage } from './pages';
 import {Header, Footer} from './containers';
 
 
@@ -19,7 +19,7 @@ class App extends Component {
               <Route exact path='/quem-somos' component={AboutPage}/>
               <Route exact path='/onde-estamos' component={WherePage}/>
               <Route exact path='/fale-conosco' component={ContactPage}/>
-              <Route exact path='/area-do-cliente' component={ClientPage}/>
+              <Route exact path='/nossos-planos' component={ContractPage}/>
          </div>
           <Footer/>
          </div>

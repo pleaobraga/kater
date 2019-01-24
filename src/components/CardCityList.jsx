@@ -6,11 +6,11 @@ const CardCityList = ({card}) => {
         <div className="section-content">
             <div className="card-page">
 
-                <h4 className="card-page-title">
+                <h4 className="card-page--title">
                     {card.title}
                 </h4>
 
-                <p className="card-page-text">
+                <p className="card-page--text">
                     {card.content}
                 </p>
 
