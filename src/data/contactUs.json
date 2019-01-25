@@ -46,7 +46,7 @@
                     },
                     {
                         "type": "select",
-                        "label": "Motivo co contato",
+                        "label": "Motivo do contato",
                         "id":"reason",
                         "required": true,
                         "name": "reason",

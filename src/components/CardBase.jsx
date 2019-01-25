@@ -7,9 +7,10 @@ const CardBase = ({card, children}) => {
                 <h4 className="card-page--title">
                     {card.title}
                 </h4>
-                <p className="card-page--text">
-                    {card.content}
-                </p>
+                <p 
+                    className="card-page--text" 
+                    dangerouslySetInnerHTML={{ __html: card.content }}
+                />
 
                 {children}
 
