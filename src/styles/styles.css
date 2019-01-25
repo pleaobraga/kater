@@ -874,6 +874,24 @@ body {
     .custom-select--items {
       top: 5.3rem; } }
 
+.description-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  margin-top: 2rem; }
+  .description-list--item {
+    display: flex;
+    align-items: center; }
+    .description-list--item:not(:last-of-type) {
+      margin-bottom: 1rem; }
+    .description-list--item span {
+      display: inline-block;
+      background: #000;
+      width: .7rem;
+      height: .7rem;
+      border-radius: 50%;
+      margin-right: 4px; }
+
 .plans-choices {
   margin-top: 3rem;
   width: 40rem; }
@@ -1018,7 +1036,7 @@ body {
         padding: 13rem 0 20rem; } }
   @media (max-width: 768px) {
     .section-banner {
-      padding: 13rem 0 12rem; }
+      padding: 13rem 0 6rem; }
       .section-banner_card {
         padding: 13rem 0 26rem; }
       .section-banner--title {

@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import ListText from "./ListText"
 
 const CardCTA = ({card}) => {
     return (
@@ -12,13 +13,7 @@ const CardCTA = ({card}) => {
                     {card.content}
                 </p>
 
-                {
-                    card.listItens && card.listItens.length > 0 && (
-                        <ul className="description-list" >
-                            {card.listItens.map((text, index )=> <li key={index} className="description-list--item" ><span>&nbsp;</span>{text}</li>)}
-                        </ul>
-                    )
-                }
+                <ListText listItens={card.listItens} />
 
                 <div className="card-page--cta">
                     <Link to="/fale-conosco" className="btn btn--primary">
