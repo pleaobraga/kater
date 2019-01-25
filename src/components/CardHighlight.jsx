@@ -18,7 +18,7 @@ class CardHighlight extends React.Component {
   }
 
   renderLastContent(width, card) {
-    if(width > 728 ){
+    if(width > 768 ){
         return (
           <div className="card-highlight--cta">
             <a href="" className="btn btn--primary">
@@ -54,7 +54,7 @@ class CardHighlight extends React.Component {
       <div className="card-highlight">
           <div className="card-highlight--item">
             
-            <img className="card-highlight--image" src={ width > 728 ? "http://lorempixel.com/450/183/" : "http://lorempixel.com/768/183/"} alt="backgound image" />
+            <img className="card-highlight--image" src={ width > 768 ? "http://lorempixel.com/450/183/" : "http://lorempixel.com/768/183/"} alt="backgound image" />
             
             <div className="card-highlight--content">
               

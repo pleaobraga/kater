@@ -805,13 +805,15 @@ body {
     text-transform: uppercase;
     font-size: 1.3rem; }
   .card-highlight--title {
-    font-size: 22px;
+    font-size: 2.2rem;
     margin: 1.5rem 0; }
   .card-highlight--cta {
     text-align: center;
     padding: 3rem 0 0; }
     .card-highlight--cta .btn {
       width: 100%; }
+  .card-highlight--text {
+    font-size: 1.4rem; }
   @media (max-width: 768px) {
     .card-highlight {
       max-width: 100%;
@@ -821,7 +823,9 @@ body {
         border: none; }
       .card-highlight--content {
         margin-top: -5px;
-        padding: 0 2.2rem 3rem; } }
+        padding: 0 2.2rem 3rem; }
+      .card-highlight .description-list--item {
+        font-size: 1.4rem; } }
 
 .card-page {
   border: 1px solid #d1d8d4;
