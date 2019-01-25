@@ -932,6 +932,11 @@ body {
       width: 10rem; }
     .header-mobile .container--content {
       margin-bottom: 15px; }
+    .header-mobile .menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 17rem; }
   .header-nav-list {
     display: flex; }
   .header-nav-item:not(:first-of-type) {

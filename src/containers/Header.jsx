@@ -54,9 +54,12 @@ class Header extends React.Component {
                         <Link className="header-mobile--logo" to="/" >
                             <img src="/assets/images/kater.jpg" alt="Logo" />
                         </Link>
-                        <button className="menu-button">
-                            <img src="/assets/images/icons/hamburguer-icon.svg" alt="Menu Button" className="menu-icon"/>
-                        </button>
+                        <div className="menu">
+                            <a href={header.static.link} target="blank" className="header-nav-mobile--link">{header.static.name}</a>
+                            <button className="menu-button">
+                                <img src="/assets/images/icons/hamburguer-icon.svg" alt="Menu Button" className="menu-icon"/>
+                            </button>
+                        </div>
                     </div>
                     <nav className={`header-nav-mobile ${this.state.openMenu ? "" : "hidden"}`}>
                         <ul className="header-nav-mobile--list">

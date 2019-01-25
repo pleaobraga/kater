@@ -20,12 +20,13 @@
                 "name": "Fale conosco",
                 "link": "/fale-conosco",
                 "externalLink": false
-            },
-            {
-                "name": "Área do assinate",
-                "link": "/quem-somos",
-                "externalLink": true
             }
-        ]
+        ],
+        "static": {
+            "name": "Área do assinate",
+            "link": "/quem-somos",
+            "externalLink": true
+        }
     }
+    
 }
