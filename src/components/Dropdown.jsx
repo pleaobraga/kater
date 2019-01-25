@@ -19,9 +19,6 @@ class Dropdown extends React.Component {
     }
 
     render() {
-
-        debugger;
-
         const { open } = this.state;
         const { card } = this.props;
 

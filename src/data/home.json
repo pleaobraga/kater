@@ -36,19 +36,6 @@
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "cta": "Ver mais",
                 "responsive": {
-                    "type": "list",
-                    "content": [
-                        "text 1",
-                        "text 2"
-                    ]
-                }
-            },
-            {
-                "title": "Quem somos",
-                "titleContent": "Soluções em internet com fibra ótica", 
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "cta": "Ver mais",
-                "responsive": {
                     "type": "button",
                     "list": {
                         "title": "Escolha uma cidade para consultar",

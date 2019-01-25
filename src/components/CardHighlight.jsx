@@ -18,9 +18,6 @@ class CardHighlight extends React.Component {
   }
 
   renderLastContent(width, card) {
-
-    debugger;
-
     if(width > 728 ){
         return (
           <div className="card-highlight--cta">
