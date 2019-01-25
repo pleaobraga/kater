@@ -747,17 +747,20 @@ body {
   min-height: 100vh;
   height: 100%; }
 
-.form-group {
-  margin-bottom: 20px; }
-
-.form-label {
-  margin-bottom: 5px; }
-  .form-label--block {
-    display: block; }
-
-.form-input {
-  width: 100%;
-  padding: 15px; }
+.form {
+  margin-top: 4rem; }
+  .form-group {
+    margin-bottom: 2rem; }
+  .form-label {
+    margin-bottom: .5rem; }
+    .form-label--block {
+      display: block; }
+  .form-input {
+    width: 100%;
+    padding: 1.5rem; }
+  @media (max-width: 768px) {
+    .form-label {
+      font-size: 1.5rem; } }
 
 .btn {
   display: inline-block;
@@ -768,7 +771,8 @@ body {
   cursor: pointer;
   font-size: 1.4rem;
   padding: 1.5rem 0;
-  text-decoration: none; }
+  text-decoration: none;
+  width: 100%; }
   .btn--primary {
     background-color: #282a5b;
     color: #FFFFFF;
@@ -777,7 +781,9 @@ body {
   .btn--submit {
     background-color: #1abc9c;
     box-shadow: 0 3px 0 #15987e;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold; }
 
 .feedback {
   margin-top: 10px; }

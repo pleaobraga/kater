@@ -1,9 +1,11 @@
 .form{
+    margin-top: 4rem;
+
     &-group{
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
     }
     &-label{
-        margin-bottom: 5px;
+        margin-bottom: .5rem;
 
         &--block{
             display: block;
@@ -11,6 +13,12 @@
     }
     &-input{
         width: 100%;
-        padding: 15px;
+        padding: 1.5rem;
+    }
+
+    @media (max-width: 768px) {
+        &-label{
+           font-size: 1.5rem;
+        }
     }
 }

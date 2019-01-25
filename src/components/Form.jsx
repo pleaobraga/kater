@@ -9,22 +9,19 @@ class Form extends React.Component {
                 return (
                     <input 
                         id={component.id} 
-                        type={component.type} 
+                        type={component.inputType} 
                         className="form-input"
                         required={component.required}
                         placeholder={component.placeholder}
                         ref={component.id}
                         name={component.id}
-                    >
-                        {component.text}
-                    </input>
+                    />
                 )
 
             case("phone"): 
                 return (
                     <MaskedInput
                         mask={() => { return ['(', /\d/, /\d/, ')', ' ', /\d/,' ', /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/] }}
-                        maxLength={10}
                         className="form-input"
                         placeholder="(00) 0 0000-0000"
                         ref={component.id}
@@ -37,7 +34,7 @@ class Form extends React.Component {
                 return(
                     <select 
                         id={component.id} 
-                        type={component.type} 
+                        type={component.inputType} 
                         className="form-input"
                         required={component.required}
                         placeholder={component.placeholder}
@@ -64,15 +61,13 @@ class Form extends React.Component {
                 return(
                     <textarea 
                         id={component.id} 
-                        type={component.type} 
                         className="form-input"
                         required={component.required}
                         placeholder={component.placeholder}
                         ref={component.id}
-                        name={component.id}name="message" 
+                        name={component.id}
                         rows="10" cols="30"
                     >
-                        {component.text}
                     </textarea>
                 )
             }
@@ -80,7 +75,7 @@ class Form extends React.Component {
     }
 
     renderFormComponents(formItens) {
-        formItens.map((component, index) => {
+        return formItens.map((component, index) => {
             return (
                 <div key={index} className="form-group" >
                     <label htmlFor={component.id} className="form-label form-label--block">
@@ -93,15 +88,15 @@ class Form extends React.Component {
     }
 
     render() {
-        const {formItens} = this.props.component
+        const {itens: formItens, cta} = this.props.form
 
         if(formItens && formItens.length > 0) {
             return(
-                <form>
+                <form className="form" >
                     { this.renderFormComponents(formItens) }
 
                     <div className="form-group">
-                        <button type="submit" className="btn btn--submit">enviar</button>
+                        <button type="submit" className="btn btn--submit">{cta}</button>
                     </div>
                 </form>
             )

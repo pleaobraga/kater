@@ -12,7 +12,68 @@
                 "text",
                 "text",
                 "text"
-            ]
+            ],
+
+            "form": {
+                "itens": [
+                    {
+                        "type": "input",
+                        "label": "Name",
+                        "id":"name",
+                        "inputType": "text",
+                        "required": true,
+                        "placeholder": "",
+                        "name": "name"
+
+                    },
+                    {
+                        "type": "input",
+                        "label": "E-mail",
+                        "id":"email",
+                        "inputType": "email",
+                        "required": true,
+                        "placeholder": "",
+                        "name": "email"
+
+                    },
+                    {
+                        "type": "phone",
+                        "label": "Telefone",
+                        "id":"phone",
+                        "required": true,
+                        "name": "phone"
+
+                    },
+                    {
+                        "type": "select",
+                        "label": "Motivo co contato",
+                        "id":"reason",
+                        "required": true,
+                        "name": "reason",
+                        "options": [
+                            {
+                                "text": "Motivo 1"
+                            },
+                            {
+                                "text": "Motivo 2"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "textarea",
+                        "label": "Mensagem",
+                        "id":"mensagem",
+                        "required": true,
+                        "placeholder": "",
+                        "name": "mensagem"
+
+                    }
+                ],
+
+                "cta": "Enviar"
+            }
         }
+
+        
     }
 }

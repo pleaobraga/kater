@@ -1,4 +1,5 @@
 import React from "react"
+import Form from './Form'
 import { SignUp } from "../containers"
 
 const CardForm = ({card}) => {
@@ -12,7 +13,7 @@ const CardForm = ({card}) => {
                     {card.content}
                 </p>
 
-                <SignUp />
+                <Form form={card.form} />      
 
             </div>
         </div>

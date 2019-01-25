@@ -8,6 +8,7 @@
     font-size: 1.4rem;
     padding: 1.5rem 0;
     text-decoration: none;
+    width: 100%;
 
     &--primary{
         background-color: $btnPrimaryBg;
@@ -20,5 +21,7 @@
         background-color: $btnSubmitBg;
         box-shadow: 0 3px 0 $btnSubmitShadow;   
         color: $btnSubmitColor;
+        text-transform: uppercase;
+        font-weight: bold;
     }
 }
