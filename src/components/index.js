@@ -6,5 +6,7 @@ export { default as PrimaryBanner } from './PrimaryBanner';
 export { default as CardCTA } from './CardCTA';
 export { default as CardCityList } from './CardCityList';
 export { default as ListCardHighlight } from './ListCardHighlight';
+export { default as ListText } from './ListText';
+export { default as Dropdown } from './Dropdown';
 
 

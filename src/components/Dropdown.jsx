@@ -19,13 +19,16 @@ class Dropdown extends React.Component {
     }
 
     render() {
+
+        debugger;
+
         const { open } = this.state;
         const { card } = this.props;
 
         return (  
             <div className="custom-select">
                 <div className="custom-select--title" onClick={() => this.toggleDropdown()}  >
-                    <span ref={this.myRef} >
+                    <span >
                         {card.list.title}
                     </span>
                     <img src="/assets/images/icons/triangle-down.svg" alt="triangle icon"/>

@@ -1,4 +1,6 @@
 import React from 'react';
+import ListText from './ListText'
+import Dropdown from './Dropdown'
 
 class CardHighlight extends React.Component {
 
@@ -13,6 +15,30 @@ class CardHighlight extends React.Component {
     this.setState({
       width: window.innerWidth
     });
+  }
+
+  renderLastContent(width, card) {
+
+    debugger;
+
+    if(width > 728 ){
+        return (
+          <div className="card-highlight--cta">
+            <a href="" className="btn btn--primary">
+              {card.cta}
+            </a>
+          </div>
+        )
+    } else if(card.responsive.type === "list") {
+      return (
+        <ListText listItens={card.responsive.content} />
+      )
+    }
+
+    return (
+      <Dropdown card={card.responsive} />
+    )
+    
   }
 
   componentDidMount() {
@@ -46,13 +72,11 @@ class CardHighlight extends React.Component {
               <p className="card-highlight--text">
                 {card.content}          
               </p>
-              
-              <div className="card-highlight--cta">
-                <a href="" className="btn btn--primary">
-                  {card.cta}
-                </a>
-              </div>
-            
+
+              {
+                this.renderLastContent(width, card)
+              }
+                 
             </div>
           </div>
       </div>
