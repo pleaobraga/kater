@@ -108,6 +108,10 @@ class Header extends React.Component {
                                         )
                                     })
                                 }
+                                <li className="header-nav-item">
+                                    <a href={header.static.link} target="blank" className="header-nav-link">{header.static.name}</a>
+                                </li>
+                                
                             </ul>
                         </nav>
                     </div>
