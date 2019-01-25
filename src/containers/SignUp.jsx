@@ -50,7 +50,7 @@ class SignUp extends Component {
             return
         }
 
-        signUp(event)
+        /*signUp(event)
             .then(response => {
                 if (response.status === 200) {
                     this.setState({
@@ -125,7 +125,7 @@ class SignUp extends Component {
                     },
                     isLoading: false
                 })
-            });
+            });*/
     }
 
     closeMessage = () => {
@@ -144,74 +144,61 @@ class SignUp extends Component {
     render() {
         return (
             <section className="section section--form form">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-8 col-md-offset-2">
-                            <form action="" onSubmit={this.handleSubmit.bind(this)} noValidate>
-                                <div>
-                                    <div className="form-group">
-                                        <label htmlFor="name" className="form-label form-label--block">
-                                            Nome
-                                        </label>
-                                        <input
-                                            ref="inputName"
-                                            type="text"
-                                            name="name"
-                                            id="name"
-                                            placeholder="Digite seu nome aqui"
-                                            maxLength={100}
-                                            required={true}
-                                            className="form-input"
-                                        />
-                                    </div>
-                                    <div className="form-group">
-                                        <label htmlFor="email" className="form-label form-label--block">
-                                            E-mail
-                                        </label>
-                                        <input
-                                            ref="inputEmail"
-                                            type="text"
-                                            name="email"
-                                            id="email"
-                                            placeholder="Digite seu e-mail aqui"
-                                            maxLength={100}
-                                            required={true}
-                                            className="form-input"
-                                        />
-                                    </div>
-                                    <div className="form-group">
-                                        <label htmlFor="phone" className="form-label form-label--block">
-                                            Telefone <span>(opcional)</span>
-                                        </label>
-                                        <MaskedInput
-                                            mask={(rawValue) => { return ['(', /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/] }}
-                                            maxLength={100}
-                                            className="form-input"
-                                            placeholder="(00) 00000-0000"
-                                            id="phone"
+                <form action="" onSubmit={this.handleSubmit.bind(this)} noValidate>
+                    <div>
+                        <div className="form-group">
+                            <label htmlFor="name" className="form-label form-label--block">
+                                Nome
+                            </label>
+                            <input
+                                ref="inputName"
+                                type="text"
+                                name="name"
+                                id="name"
+                                placeholder="Digite seu nome aqui"
+                                maxLength={100}
+                                required={true}
+                                className="form-input"
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="email" className="form-label form-label--block">
+                                E-mail
+                            </label>
+                            <input
+                                ref="inputEmail"
+                                type="text"
+                                name="email"
+                                id="email"
+                                placeholder="Digite seu e-mail aqui"
+                                maxLength={100}
+                                required={true}
+                                className="form-input"
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="phone" className="form-label form-label--block">
+                                Telefone <span>(opcional)</span>
+                            </label>
+                            <MaskedInput
+                                mask={(rawValue) => { return ['(', /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/] }}
+                                maxLength={100}
+                                className="form-input"
+                                placeholder="(00) 00000-0000"
+                                id="phone"
 
-                                        />
-                                    </div>
+                            />
+                        </div>
 
-                                    <div className="form-group">
-                                        <input type="checkbox" name="" id="terms" onChange={this.handleCheckbox} ref="inputCheckbox" className="form-checkbox"/>
-                                        <label htmlFor="terms" className="form-label">
-                                            Li e aceito o <a href="https://s3.amazonaws.com/maxmilhas/etc/black-friday-regulamento.pdf" target="_blank" rel="noopener noreferrer">regulamento</a>. <strong>Ah, lembramos que os prêmios estarão disponíveis após a compra da passagem.</strong>
-                                        </label>
-                                    </div>
+                        <div className="form-group">
+                            <div>
+                                <button type="submit" className="btn btn--submit">enviar</button>
+                            </div>
 
-                                    <div className="form-group">
-                                        <div>
-                                            <button type="submit" className="btn btn--submit">enviar</button>
-                                        </div>
-
-                                        <Feedback text={this.state.feedback.message}/>
-                                    </div>
-                                </div>
-                            </form>
+                            <Feedback text={this.state.feedback.message}/>
                         </div>
                     </div>
-                </div>
+                </form>
             </section>
         );
     }

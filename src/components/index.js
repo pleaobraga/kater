@@ -8,5 +8,6 @@ export { default as CardCityList } from './CardCityList';
 export { default as ListCardHighlight } from './ListCardHighlight';
 export { default as ListText } from './ListText';
 export { default as Dropdown } from './Dropdown';
+export { default as CardForm } from './CardForm';
 
 

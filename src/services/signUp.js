@@ -1,4 +1,4 @@
-import { URL_SIGN_UP_PRD } from './../constants/constants';
+/*import { URL_SIGN_UP_PRD } from './../constants/constants';
 
 const signUp = (event) => {
   const {name, email, phone} = event.target.elements;
@@ -17,4 +17,4 @@ const signUp = (event) => {
   return fetch(request);
 }
 
-export default signUp;
+export default signUp;*/
