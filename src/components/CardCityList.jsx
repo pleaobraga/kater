@@ -1,41 +1,69 @@
 import React from "react"
+import { Link } from 'react-router-dom'
 
 
-const CardCityList = ({card}) => {
-    return (
-        <div className="section-content">
-            <div className="card-page">
+class CardCityList extends React.Component {
 
-                <h4 className="card-page--title">
-                    {card.title}
-                </h4>
+    constructor() {
+        super()
+        this.state = {
+            open: false
+        }
 
-                <p className="card-page--text">
-                    {card.content}
-                </p>
+        this.myRef = React.createRef();
+    }
 
-                <div className="plans-choices">
-                    <p className="plans-choices--question">
-                        {card.list.title}
+    toggleDropdown() {
+
+        let { open } = this.state;
+
+        this.setState({open: !open});
+    }
+
+    render() {
+        const { open } = this.state;
+        const { card } = this.props;
+
+        return (
+            <div className="section-content">
+                <div className="card-page">
+    
+                    <h4 className="card-page--title">
+                        {card.title}
+                    </h4>
+    
+                    <p className="card-page--text">
+                        {card.content}
                     </p>
-
-                    <ul className="plans-choices--list">
-                        {
-                            card.list.cities.map(city => {
-                                return(
-                                    <li className="plans-choices--item">
-                                        <a href={city.link} className="plans-choices--link">
+                   
+    
+                    <div className="custom-select">
+                        <div className="custom-select--title" onClick={() => this.toggleDropdown()}  >
+                            <span ref={this.myRef} >
+                                {card.list.title}
+                            </span>
+                            <img src="/assets/images/icons/triangle-down.svg" alt="triangle icon"/>
+                        </div>
+                        <div className={`custom-select--items ${open ? "" : "hidden"}`}  >
+                            {
+                                card.list.cities.map((city, index) => {
+                                    return(
+                                        <Link 
+                                            key={index}
+                                            to={city.link} 
+                                        >
                                             {city.name}
-                                        </a>
-                                    </li>
-                                )
-                            })
-                        }
-                    </ul>
+                                        </Link>
+                                    )
+                                })
+                            }
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    )
+        )
+    }
+    
 }
 
 export default CardCityList;

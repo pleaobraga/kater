@@ -843,23 +843,36 @@ body {
       padding: 4rem 2.2rem;
       margin-bottom: 0; } }
 
-.description-list {
+.custom-select {
   display: flex;
   flex-direction: column;
   font-size: 1.6rem;
-  margin-top: 2rem; }
-  .description-list--item {
+  margin-top: 2rem;
+  background-color: #1e90ff; }
+  .custom-select > .custom-select--title,
+  .custom-select > .custom-select--items > * {
+    color: #FFF;
+    padding: 1.6rem;
+    border-bottom: 1px solid #FFF; }
+    .custom-select > .custom-select--title:hover,
+    .custom-select > .custom-select--items > *:hover {
+      cursor: pointer; }
+  .custom-select--title {
     display: flex;
-    align-items: center; }
-    .description-list--item:not(:last-of-type) {
-      margin-bottom: 1rem; }
-    .description-list--item span {
-      display: inline-block;
-      background: #000;
-      width: .7rem;
-      height: .7rem;
-      border-radius: 50%;
-      margin-right: 4px; }
+    justify-content: space-between; }
+    .custom-select--title img {
+      height: 1.6rem; }
+  .custom-select--items {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e90ff; }
+  .custom-select a {
+    text-decoration: none; }
+    .custom-select a:active {
+      color: #FFF; }
+  @media (max-width: 768px) {
+    .custom-select--items {
+      top: 5.3rem; } }
 
 .plans-choices {
   margin-top: 3rem;
