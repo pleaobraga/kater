@@ -10,5 +10,6 @@ export { default as ListText } from './ListText';
 export { default as Dropdown } from './Dropdown';
 export { default as CardForm } from './CardForm';
 export { default as Form } from './Form';
+export { default as CardBase } from './CardBase';
 
 

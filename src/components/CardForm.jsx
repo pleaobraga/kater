@@ -1,22 +1,12 @@
 import React from "react"
 import Form from './Form'
-import { SignUp } from "../containers"
+import CardBase from './CardBase'
 
 const CardForm = ({card}) => {
     return (
-        <div className="section-content">
-            <div className="card-page">
-                <h4 className="card-page--title">
-                    {card.title}
-                </h4>
-                <p className="card-page--text">
-                    {card.content}
-                </p>
-
-                <Form form={card.form} />      
-
-            </div>
-        </div>
+        <CardBase card={card} >
+            <Form form={card.form} />  
+        </CardBase>
     )
 }
 
