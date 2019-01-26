@@ -12,15 +12,15 @@
                 "cities": [
                     {
                         "name": "Cidade 1",
-                        "link": "/cidade1"
+                        "link": "/nossos-planos/cidade1"
                     },
                     {
                         "name": "Cidade 2",
-                        "link": "/cidade2"
+                        "link": "/nossos-planos/cidade1"
                     },
                     {
                         "name": "Cidade 3",
-                        "link": "/cidade3"
+                        "link": "/nossos-planos/cidade1"
                     }
                 ]
             }
