@@ -15,7 +15,7 @@ const Footer = () => {
               footer.socialList.map((social, index) => {
                 return(
                   <a key={index} className="social-media--link" href={social.link} target="blank" >
-                    <img src={social.img} alt={`${social.name} logo`} className="social-media--logo"/>
+                    <img src={process.env.PUBLIC_URL + social.img} alt={`${social.name} logo`} className="social-media--logo"/>
                   </a>
                 )
               })

@@ -28,7 +28,7 @@ class Dropdown extends React.Component {
                     <span >
                         {card.list.title}
                     </span>
-                    <img src="/assets/images/icons/triangle-down.svg" alt="triangle icon"/>
+                    <img src={process.env.PUBLIC_URL + '/assets/images/icons/triangle-down.svg'} alt="triangle icon" />
                 </div>
                 <div className={`custom-select--items ${open ? "" : "hidden"}`}  >
                     {

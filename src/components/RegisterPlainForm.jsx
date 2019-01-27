@@ -15,7 +15,7 @@ const RegisterPlainForm = ({form, plain}) => {
                         <h4 className="box-item--name">{plain.name}</h4>
                     </div>
                     <div className="box-item--speed">
-                        <img className="box-item--icon" src="/assets/images/icons/icon-wifi.svg" />
+                        <img className="box-item--icon" src={process.env.PUBLIC_URL + '/assets/images/icons/icon-wifi.svg'} />
                         <strong className="box-item--value">{plain.speed}</strong>
                     </div>
                     <div className="box-item--price">
