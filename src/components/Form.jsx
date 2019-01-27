@@ -15,6 +15,7 @@ class Form extends React.Component {
                         placeholder={component.placeholder}
                         ref={component.id}
                         name={component.id}
+                        disabled={component.disabled ? component.disabled : false}
                     />
                 )
 
@@ -57,7 +58,7 @@ class Form extends React.Component {
                     </select>
                 )
             
-            case("textarea"): {
+            case("textarea"): 
                 return(
                     <textarea 
                         id={component.id} 
@@ -70,7 +71,18 @@ class Form extends React.Component {
                     >
                     </textarea>
                 )
-            }
+            
+            case("cep"): 
+                return (
+                    <MaskedInput
+                        mask={() => { return [ /\d/, /\d/, /\d/, /\d/, /\d/, '-' , /\d/, /\d/, /\d/] }}
+                        className="form-input"
+                        placeholder="00000-000"
+                        ref={component.id}
+                        name={component.id}
+                        required={component.required}
+                    />
+                )
         }
     }
 

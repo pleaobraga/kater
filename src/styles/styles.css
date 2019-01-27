@@ -750,7 +750,8 @@ body {
 .form {
   margin-top: 4rem; }
   .form-group {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    border: 1px solid #fff; }
   .form-label {
     margin-bottom: .5rem;
     font-size: 1.5rem; }
@@ -760,6 +761,22 @@ body {
     width: 100%;
     padding: 1.5rem;
     background: #fff; }
+    .form-input:disabled {
+      background: #e8e8e8;
+      border: 1px solid #fff; }
+
+.select-plain-form {
+  margin-top: 3rem; }
+  .select-plain-form--title {
+    font-size: 2.2rem;
+    padding-top: 3rem; }
+  .select-plain-form--plain-info {
+    margin-top: 2rem; }
+  .select-plain-form--subtitle {
+    font-size: 1.5rem; }
+  @media (max-width: 991px) {
+    .select-plain-form--title {
+      padding-top: 9rem; } }
 
 .btn {
   display: inline-block;

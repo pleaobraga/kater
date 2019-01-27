@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PlainsList = ({card}) => {
+const PlainsList = ({card, selectPlain}) => {
 
     return (
         <div className="plain-list">
@@ -12,7 +12,7 @@ const PlainsList = ({card}) => {
                         {
                             typePlain.plainList.map((plain, index) => {
                                 return (
-                                    <div key={index} className="box-item">
+                                    <div key={index} className="box-item" onClick={() => selectPlain(plain)}>
                                         <div className="box-item--title">
                                             <span className="box-item--type">{plain.type}</span>
                                             <h4 className="box-item--name">{plain.name}</h4>

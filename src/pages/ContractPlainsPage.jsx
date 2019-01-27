@@ -1,22 +1,56 @@
 import React from 'react';
 import { SecondaryBanner, CardPlains } from '../components'
-import { cityList } from '../data/cityPlains.json'
+import { cityList, registerForm } from '../data/cityPlains.json'
 
 
-const ContractPage = (props) => {
+class ContractPage extends React.Component {
 
-  const city = cityList[props.match.params.city]
 
-  if(city != undefined || city != null) {
-    return (
-      <section className="section section-where where">
-         <SecondaryBanner  banner={city.banner} />
-          <CardPlains card={city.card} />     
-      </section>
-    );
+  constructor(props) {
+    super(props)
+    this.state = {
+      selectedPlain: {}
+    }
   }
 
-  return null
+  selectPlain = (plain) =>  {
+
+    this.setState({selectedPlain: plain});
+
+    setTimeout(() => {
+      const elmnt = document.getElementById("register");
+      elmnt.scrollIntoView(true);
+    }, 100);
+
+   
+
+    
+  }
+
+  render() {
+
+    const city = cityList[this.props.match.params.city]
+
+    debugger;
+
+    if(city != undefined || city != null) {
+      return (
+        <section className="section section-where where">
+           <SecondaryBanner  banner={city.banner} />
+            <CardPlains 
+              card={city.card} 
+              selectPlain={this.selectPlain} 
+              form={registerForm} 
+              plain={this.state.selectedPlain}
+            />     
+        </section>
+      );
+    }
+  
+    return null
+    
+  }
+
 };
 
 export default ContractPage;

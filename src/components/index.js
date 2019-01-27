@@ -13,6 +13,9 @@ export { default as Form } from './Form';
 export { default as CardBase } from './CardBase';
 export { default as CardPlains } from './CardPlains';
 export { default as PlainsList } from './PlainsList';
+export { default as RegisterPlainForm } from './RegisterPlainForm';
+
+
 
 
 

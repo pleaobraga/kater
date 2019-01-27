@@ -54,5 +54,95 @@
                 ]
             }
         }
+    },
+
+    "registerForm": {
+
+        "title": "Tenho interesse",
+
+        "selectPlainText": "Plano selecionado",
+
+        "itens": [
+            {
+                "type": "input",
+                "label": "Nome",
+                "id":"name",
+                "inputType": "text",
+                "required": true,
+                "placeholder": "",
+                "name": "name"
+
+            },
+            {
+                "type": "input",
+                "label": "E-mail",
+                "id":"email",
+                "inputType": "email",
+                "required": true,
+                "placeholder": "",
+                "name": "email"
+
+            },
+            {
+                "type": "phone",
+                "label": "Telefone",
+                "id":"phone",
+                "required": true,
+                "name": "phone"
+
+            },
+            {
+                "type": "input",
+                "label": "Rua",
+                "id":"rua",
+                "inputType": "text",
+                "required": true,
+                "placeholder": "",
+                "name": "rua"
+
+            },
+            {
+                "type": "input",
+                "label": "Número / Complemento",
+                "id":"numero",
+                "inputType": "text",
+                "required": true,
+                "placeholder": "",
+                "name": "numero"
+
+            },
+            {
+                "type": "input",
+                "label": "Bairro",
+                "id":"bairro",
+                "inputType": "text",
+                "required": true,
+                "placeholder": "",
+                "name": "bairro"
+
+            },
+            {
+                "type": "cep",
+                "label": "Cep",
+                "id":"cep",
+                "required": true,
+                "name": "cep"
+
+            },
+            {
+                "type": "input",
+                "label": "Cidade",
+                "id":"cidade",
+                "inputType": "text",
+                "required": true,
+                "placeholder": "",
+                "name": "cidade",
+                "disabled": true
+
+            }
+           
+        ],
+
+        "cta": "Enviar"
     }
 }

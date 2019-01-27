@@ -1,12 +1,21 @@
 import React from "react"
 import CardBase from './CardBase'
 import PlainsList from './PlainsList'
+import RegisterPlainForm from './RegisterPlainForm'
 
 
-const CardPlains = ({card}) => {
+const CardPlains = ({card, selectPlain, form, plain}) => {
+
+    debugger;
+
     return (
         <CardBase card={card} >
-            <PlainsList card={card} />
+            <PlainsList card={card} selectPlain={selectPlain} />
+            {
+                !(Object.entries(plain).length == 0 && plain.constructor === Object) && (
+                    <RegisterPlainForm form={form} plain={plain} />
+                )
+            }
         </CardBase>
     )
 }
