@@ -18,20 +18,19 @@ class ContractPage extends React.Component {
     this.setState({selectedPlain: plain});
 
     setTimeout(() => {
+      const cityName = cityList[this.props.match.params.city].name
+      document.getElementById("cidade").value = cityName
+
       const elmnt = document.getElementById("register");
       elmnt.scrollIntoView(true);
+      
     }, 100);
-
-   
-
-    
   }
+
 
   render() {
 
     const city = cityList[this.props.match.params.city]
-
-    debugger;
 
     if(city != undefined || city != null) {
       return (
