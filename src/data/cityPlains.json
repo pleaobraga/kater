@@ -3,7 +3,7 @@
 
         "cidade1" : {
 
-            "name": "Cidade 1",
+            "name": "Brumadinho",
 
             "banner": {
                 "title": "Soluções em internet com fibra ótica",
@@ -11,7 +11,8 @@
             },
 
             "card": {
-                "title": "Nossos planos Brumadinho",
+                "title":  "Brumadinho",
+                "subtitle": "Nossos planos",
                 "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat perferendis, illum nam esse blanditiis, obcaecati inventore, numquam quidem reiciendis quibusdam.",
                 
                 "typesPlain": [
