@@ -1136,3 +1136,7 @@ body {
   @media (max-width: 768px) {
     .section-content {
       margin: 0rem 0rem 2rem; } }
+
+@media (max-width: 768px) {
+  .section.fix-top .section-banner_card {
+    padding: 6rem 0 26rem; } }
