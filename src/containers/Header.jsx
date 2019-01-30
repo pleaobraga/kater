@@ -20,7 +20,7 @@ class Header extends React.Component {
       }
 
       handleMenu = (event) => {
-        if(event.target.getAttribute("class") == "menu-icon") {
+        if(event.target.getAttribute("class") === "menu-icon") {
             this.state.openMenu === false ? this.openMenu() : this.closeMenu() 
         } else if(this.state.openMenu === true) {
             this.closeMenu();

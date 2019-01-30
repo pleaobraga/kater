@@ -6,7 +6,6 @@
         padding: 10rem 0;
 
         &_card {
-            background: url(http://lorempixel.com/1920/1080/) no-repeat scroll 0 0 transparent;
             text-align: center;
             padding: 10rem 0 25rem;
             position: relative;
@@ -75,6 +74,14 @@
 
         @media (max-width: 768px) {
             margin: 0rem 0rem 2rem;
+        }
+    }
+
+    &.fix-top {
+        .section-banner_card {
+            @media (max-width: 768px) {
+                padding: 6rem 0 26rem;
+            }
         }
     }
 

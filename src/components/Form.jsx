@@ -83,6 +83,9 @@ class Form extends React.Component {
                         required={component.required}
                     />
                 )
+
+            default:
+                return null
         }
     }
 

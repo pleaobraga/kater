@@ -863,6 +863,17 @@ body {
     margin-top: 30px; }
     .card-page--cta .btn {
       width: 100%; }
+  .card-page .title-box {
+    display: flex;
+    flex-direction: column; }
+    .card-page .title-box--title {
+      font-size: 2rem;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      margin-top: 1rem; }
+    .card-page .title-box--subtitle {
+      font-size: 1.3rem;
+      color: #848685; }
   @media (max-width: 992px) {
     .card-page {
       width: 100%;
@@ -1078,7 +1089,6 @@ body {
   color: #FFFFFF;
   padding: 10rem 0; }
   .section-banner_card {
-    background: url(http://lorempixel.com/1920/1080/) no-repeat scroll 0 0 transparent;
     text-align: center;
     padding: 10rem 0 25rem;
     position: relative; }
@@ -1126,3 +1136,7 @@ body {
   @media (max-width: 768px) {
     .section-content {
       margin: 0rem 0rem 2rem; } }
+
+@media (max-width: 768px) {
+  .section.fix-top .section-banner_card {
+    padding: 6rem 0 26rem; } }

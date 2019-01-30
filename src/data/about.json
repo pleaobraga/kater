@@ -2,6 +2,7 @@
     "about": {
         "title": "Soluções em internet com fibra ótica",
         "subtitle": "A solução completa para quem precisa de velocidade e segurança",
+        "img": "/assets/images/banner.jpg",
 
         "card": {
             "title": "Quem somos",
