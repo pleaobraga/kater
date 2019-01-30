@@ -9,7 +9,7 @@ const CardCTA = ({card}) => {
         <CardBase card={card} >
             <ListText listItens={card.listItens} />
             <div className="card-page--cta">
-                <Link to="/fale-conosco" className="btn btn--primary">
+                <Link to={card.linkCta} className="btn btn--primary">
                     {card.cta}
                 </Link>
             </div>
