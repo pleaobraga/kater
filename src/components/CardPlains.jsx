@@ -5,9 +5,6 @@ import RegisterPlainForm from './RegisterPlainForm'
 
 
 const CardPlains = ({card, selectPlain, form, plain}) => {
-
-    debugger;
-
     return (
         <CardBase card={card} >
             <PlainsList card={card} selectPlain={selectPlain} />

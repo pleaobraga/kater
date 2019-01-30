@@ -11,7 +11,63 @@
             },
 
             "card": {
-                "title": "Nossos planos",
+                "title": "Nossos planos Brumadinho",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat perferendis, illum nam esse blanditiis, obcaecati inventore, numquam quidem reiciendis quibusdam.",
+                
+                "typesPlain": [
+                    
+                    {
+                        "title": "Planos Residenciais",
+    
+                        "plainList": [
+                            {
+                                "type": "Plano Residencial 1",
+                                "name": "Fibra Otica",
+                                "speed": "50MB",
+                                "price": "89,90"
+                            },
+                            {
+                                "type": "Plano Residencial 2",
+                                "name": "Fibra Otica",
+                                "speed": "50MB",
+                                "price": "89,90"
+                            }
+                        ]
+                    },
+    
+                    {
+                        "title": "Planos Comerciais",
+    
+                        "plainList": [
+                            {
+                                "type": "Plano Empresarial 1",
+                                "name": "Fibra Otica",
+                                "speed": "50MB",
+                                "price": "99,90"
+                            },
+                            {
+                                "type": "Plano Empresarial 2",
+                                "name": "Fibra Otica",
+                                "speed": "50MB",
+                                "price": "99,90"
+                            }
+                        ]
+                    }   
+                ]
+            }
+        },
+
+        "contagem" : {
+
+            "name": "Contagem",
+
+            "banner": {
+                "title": "Soluções em internet com fibra ótica",
+                "subtitle": "A solução completa para quem precisa de velocidade e segurança"
+            },
+
+            "card": {
+                "title": "Nossos planos Contagem",
                 "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat perferendis, illum nam esse blanditiis, obcaecati inventore, numquam quidem reiciendis quibusdam.",
                 
                 "typesPlain": [
