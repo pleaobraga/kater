@@ -9,7 +9,7 @@ const CardPlains = ({card, selectPlain, form, plain}) => {
         <CardBase card={card} >
             <PlainsList card={card} selectPlain={selectPlain} />
             {
-                 !Object.entries(plain).length == 0 && (
+                 Object.entries(plain).length > 0 && (
                     <RegisterPlainForm form={form} plain={plain} />
                 )
             }
