@@ -872,7 +872,8 @@ body {
       margin-bottom: 2rem;
       margin-top: 1rem; }
     .card-page .title-box--subtitle {
-      font-size: 1.3rem; }
+      font-size: 1.3rem;
+      color: #848685; }
   @media (max-width: 992px) {
     .card-page {
       width: 100%;
