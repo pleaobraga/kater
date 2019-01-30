@@ -21,7 +21,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
-    "build:prod": "PUBLIC_URL=https://urldacampanha.com.br/ npm-run-all build-css build-js",
+    "build:prod": "npm-run-all build-css build-js",
     "sass": "sass --watch src/styles/scss:src/styles/css",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
