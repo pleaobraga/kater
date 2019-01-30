@@ -8,6 +8,7 @@
                 "title": "Quem somos",
                 "titleContent": "Soluções em internet com fibra ótica", 
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "img": "/assets/images/highlights.jpg",
                 "cta": "Ver mais",
                 "responsive": {
                     "type": "list",
@@ -21,6 +22,7 @@
                 "title": "Quem somos",
                 "titleContent": "Soluções em internet com fibra ótica", 
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "img": "/assets/images/highlights.jpg",
                 "cta": "Ver mais",
                 "responsive": {
                     "type": "list",
@@ -34,6 +36,7 @@
                 "title": "Quem somos",
                 "titleContent": "Soluções em internet com fibra ótica", 
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "img": "/assets/images/highlights.jpg",
                 "cta": "Ver mais",
                 "responsive": {
                     "type": "button",

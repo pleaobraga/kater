@@ -32,7 +32,7 @@ class ContractPage extends React.Component {
 
     const city = cityList[this.props.match.params.city]
 
-    if(city != undefined || city != null) {
+    if(city !== undefined || city !== null) {
       return (
         <section className="section section-where where">
            <SecondaryBanner  banner={city.banner} />
