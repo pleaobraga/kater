@@ -7,14 +7,16 @@
 
             "banner": {
                 "title": "Soluções em internet com fibra ótica",
-                "subtitle": "A solução completa para quem precisa de velocidade e segurança"
+                "subtitle": "A solução completa para quem precisa de velocidade e segurança",
+                "img": "/assets/images/banner.jpg"
             },
 
             "card": {
                 "title":  "Brumadinho",
                 "subtitle": "Nossos planos",
                 "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat perferendis, illum nam esse blanditiis, obcaecati inventore, numquam quidem reiciendis quibusdam.",
-                
+                "contentcomplete": "iuqwduowqhdwhqid",
+
                 "typesPlain": [
                     
                     {

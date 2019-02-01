@@ -8,6 +8,7 @@ const CardPlains = ({card, selectPlain, form, plain}) => {
     return (
         <CardBase card={card} >
             <PlainsList card={card} selectPlain={selectPlain} />
+            { card.contentcomplete && <div  className="contentcomplete" dangerouslySetInnerHTML={{ __html: card.content }} />  }
             {
                  plain.type !== undefined && (
                     <RegisterPlainForm form={form} plain={plain} />
