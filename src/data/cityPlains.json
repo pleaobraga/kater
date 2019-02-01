@@ -14,7 +14,7 @@
             "card": {
                 "title":  "Brumadinho",
                 "subtitle": "Nossos planos",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat perferendis, illum nam esse blanditiis, obcaecati inventore, numquam quidem reiciendis quibusdam.",
+                "content": " <br/> <br/> <ul><li style='color: red' >teste</li></ul> unt repellat perferendis, illum nam esse blanditiis, obcaecati inventore, numquam quidem reiciendis quibusdam.",
                 "contentcomplete": "iuqwduowqhdwhqid",
 
                 "typesPlain": [
@@ -66,7 +66,8 @@
 
             "banner": {
                 "title": "Soluções em internet com fibra ótica",
-                "subtitle": "A solução completa para quem precisa de velocidade e segurança"
+                "subtitle": "A solução completa para quem precisa de velocidade e segurança",
+                "img": "/assets/images/banner.jpg"
             },
 
             "card": {

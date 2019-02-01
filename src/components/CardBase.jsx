@@ -7,13 +7,13 @@ const CardBase = ({card, children}) => {
             return (
                 <div className="title-box" >
                     <h2 className="title-box--subtitle" >{card.subtitle}</h2>
-                    <h1 className="title-box--title">{card.title}</h1>
+                    <h1 className="title-box--title" id="title" >{card.title}</h1>
                 </div>
             )
         }
     
         return (
-            <h1 className="card-page--title">
+            <h1 className="card-page--title" id="title" >
                 {card.title}
             </h1>
         )
