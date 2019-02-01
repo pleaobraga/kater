@@ -8,7 +8,7 @@ import DocumentTitle from 'react-document-title';
 
 let a = "";
 
-if(document.location.hash.split("#/")[1] !== "") {
+if(document.location.hash.split("#/").length > 1 && document.location.hash.split("#/")[1] !== "") {
 
     var b = document.location.hash.split("#/")[1].split("/");
 
