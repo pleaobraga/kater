@@ -1,62 +1,175 @@
 {
-    "home": {
-        "title": "Soluções em internet com fibra ótica",
-        "subtitle": "A solução completa para quem precisa de velocidade e segurança",
+  "home": {
+    "title": "PLANOS DE INTERNET CMDNET",
+    "subtitle": "Assine um plano e tenha mais qualidade de velocidade",
 
-        "cardList": [
-            {
-                "title": "Quem somos",
-                "titleContent": "Soluções em internet com fibra ótica", 
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "img": "/assets/images/highlights.jpg",
-                "cta": "Ver mais",
-                "responsive": {
-                    "type": "list",
-                    "content": [
-                        "text 1",
-                        "text 2"
-                    ]
+    "cardList": [
+      {
+        "title": "Assine",
+        "titleContent": "Nossos planos",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": "/assets/images/highlights.jpg",
+        "cta": "Assinar",
+        "desktop": [
+          {
+            "type": "list",
+            "content": ["text 1", "text 2"]
+          },
+          {
+            "type": "button",
+            "cta": "Descobrir"
+          },
+          {
+            "type": "dropdown",
+            "list": {
+              "title": "Selecione uma cidade:",
+              "cities": [
+                {
+                  "name": "Conceição do Mato Dentro - Sede",
+                  "link": "/nossos-planos/conceicao-do-mato-dentro"
                 }
-            },
-            {
-                "title": "Quem somos",
-                "titleContent": "Soluções em internet com fibra ótica", 
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "img": "/assets/images/highlights.jpg",
-                "cta": "Ver mais",
-                "responsive": {
-                    "type": "list",
-                    "content": [
-                        "text 1",
-                        "text 2"
-                    ]
-                }
-            },
-            {
-                "title": "Quem somos",
-                "titleContent": "Soluções em internet com fibra ótica", 
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "img": "/assets/images/highlights.jpg",
-                "cta": "Ver mais",
-                "responsive": {
-                    "type": "button",
-                    "list": {
-                        "title": "Escolha uma cidade para consultar",
-                        "cities": [
-                            {
-                                "name": "Cidade 1",
-                                "link": "/nossos-planos/cidade1"
-
-                            },
-                            {
-                                "name": "Cidade 2",
-                                "link": "/nossos-planos/cidade2"
-
-                            }       
-                        ]
-                    }
-                }
+              ]
             }
+          }
+        ],
+        "responsive": [
+          {
+            "type": "dropdown",
+            "list": {
+              "title": "Selecione uma cidade:",
+              "cities": [
+                {
+                  "name": "Conceição do Mato Dentro - Sede",
+                  "link": "/nossos-planos/conceicao-do-mato-dentro"
+                },
+                {
+                  "name": "Conceição do Mato Dentro - Distritos",
+                  "link": "/nossos-planos/conceicao-do-mato-dentro-distritos"
+                },
+                {
+                  "name": "Serro",
+                  "link": "/nossos-planos/serro"
+                },
+                {
+                  "name": "Diamantina",
+                  "link": "/nossos-planos/diamantina"
+                },
+                {
+                  "name": "Presidente Kubitschek",
+                  "link": "/nossos-planos/presidente-kubitschek"
+                },
+                {
+                  "name": "Congonhas do Norte",
+                  "link": "/nossos-planos/congonhas-do-norte"
+                },
+                {
+                  "name": "Senhora do Porto",
+                  "link": "/nossos-planos/senhora-do-porto"
+                },
+                {
+                  "name": "Alvorada de Minas",
+                  "link": "/nossos-planos/alvorada-de-minas"
+                },
+                {
+                  "name": "Datas",
+                  "link": "/nossos-planos/datas"
+                },
+                {
+                  "name": "Morro do pilar",
+                  "link": "/nossos-planos/morro-do-pilar"
+                },
+                {
+                  "name": "Santo antonio do Itambé",
+                  "link": "/nossos-planos/santo-antonio-do-itambe"
+                },
+                {
+                  "name": "Serra Azul de Minas",
+                  "link": "/nossos-planos/serra-azul-de-minas"
+                },
+                {
+                  "name": "Gouveia",
+                  "link": "/nossos-planos/gouveia"
+                },
+                {
+                  "name": "Não encontrei minha cidade!",
+                  "link": "/fale-conosco"
+                }
+              ]
+            }
+          }
         ]
-    }
+      },
+      {
+        "title": "Conheça",
+        "titleContent": "Quem somos",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": "/assets/images/highlights.jpg",
+        "cta": "Conhecer",
+        "desktop": [
+          {
+            "type": "button",
+            "cta": "Descobrir"
+          },
+          {
+            "type": "list",
+            "content": ["text 1", "text 2"]
+          },
+          {
+            "type": "dropdown",
+            "list": {
+              "title": "Selecione uma cidade:",
+              "cities": [
+                {
+                  "name": "Conceição do Mato Dentro - Sede",
+                  "link": "/nossos-planos/conceicao-do-mato-dentro"
+                }
+              ]
+            }
+          }
+        ],
+
+        "responsive": [
+          {
+            "type": "list",
+            "content": ["text 1", "text 2"]
+          }
+        ]
+      },
+      {
+        "title": "Descubra",
+        "titleContent": "Onde estamos",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": "/assets/images/highlights.jpg",
+        "cta": "Descobrir",
+        "desktop": [
+          {
+            "type": "button",
+            "cta": "Descobrir"
+          },
+          {
+            "type": "list",
+            "content": ["text 1", "text 2"]
+          },
+          {
+            "type": "dropdown",
+            "list": {
+              "title": "Selecione uma cidade:",
+              "cities": [
+                {
+                  "name": "Conceição do Mato Dentro - Sede",
+                  "link": "/nossos-planos/conceicao-do-mato-dentro"
+                }
+              ]
+            }
+          }
+        ],
+        "responsive": [
+          {
+            "type": "list",
+            "content": ["text 1", "text 2"]
+          }
+        ]
+      }
+    ]
+  }
 }

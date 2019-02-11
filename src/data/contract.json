@@ -1,28 +1,73 @@
 {
     "contract": {
-        "title": "Soluções em internet com fibra ótica",
-        "subtitle": "A solução completa para quem precisa de velocidade e segurança",
+        "title": "PLANOS DE INTERNET CMDNET",
+        "subtitle": "Assine um plano e tenha mais qualidade de velocidade",
         "img": "/assets/images/banner.jpg",
 
 
         "card": {
             "title": "Nossos planos",
+			"subtitle": "Assine",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat perferendis, illum nam esse blanditiis, obcaecati inventore, numquam quidem reiciendis quibusdam.",
             
             "list": {
-                "title": "Em qual cidade fica sua casa?",
+                "title": "Selecione uma cidade:",
                 "cities": [
+					{
+						"name": "Conceição do Mato Dentro - Sede",
+						"link": "/nossos-planos/conceicao-do-mato-dentro"
+					},
+					{
+						"name": "Conceição do Mato Dentro - Distritos",
+						"link": "/nossos-planos/conceicao-do-mato-dentro-distritos"
+					},
+					{
+						"name": "Serro",
+						"link": "/nossos-planos/serro"
+					},
+					{
+						"name": "Diamantina",
+						"link": "/nossos-planos/diamantina"
+					},
+					{
+						"name": "Presidente Kubitschek",
+						"link": "/nossos-planos/presidente-kubitschek"
+					},
+					{
+						"name": "Congonhas do Norte",
+						"link": "/nossos-planos/congonhas-do-norte"
+					},
+					{
+						"name": "Senhora do Porto",
+						"link": "/nossos-planos/senhora-do-porto"
+					},
+					{
+						"name": "Alvorada de Minas",
+						"link": "/nossos-planos/alvorada-de-minas"
+					},
+					{
+						"name": "Datas",
+						"link": "/nossos-planos/datas"
+					},					
+					{
+						"name": "Morro do pilar",
+						"link": "/nossos-planos/morro-do-pilar"
+					},
+					{
+						"name": "Santo antonio do Itambé",
+						"link": "/nossos-planos/santo-antonio-do-itambe"
+					},
+					{
+						"name": "Serra Azul de Minas",
+						"link": "/nossos-planos/serra-azul-de-minas"
+					},
+					{
+						"name": "Gouveia",
+						"link": "/nossos-planos/gouveia"
+					},
                     {
-                        "name": "Cidade 1",
-                        "link": "/nossos-planos/cidade1"
-                    },
-                    {
-                        "name": "Contagem",
-                        "link": "/nossos-planos/contagem"
-                    },
-                    {
-                        "name": "Cidade 3",
-                        "link": "/nossos-planos/cidade1"
+                        "name": "Não encontrei minha cidade!",
+                        "link": "/fale-conosco"
                     }
                 ]
             }

@@ -15,15 +15,10 @@
                 "name": "Nossos planos",
                 "link": "/nossos-planos",
                 "externalLink": false
-            },
-            {
-                "name": "Fale conosco",
-                "link": "/fale-conosco",
-                "externalLink": false
             }
         ],
         "static": {
-            "name": "Área do assinate",
+            "name": "Area do assinante",
             "link": "/quem-somos",
             "externalLink": true
         }

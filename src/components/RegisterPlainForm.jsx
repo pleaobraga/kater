@@ -9,18 +9,18 @@ const RegisterPlainForm = ({form, plain}) => {
 
             <div className="select-plain-form--plain-info">
                 <span className="select-plain-form--subtitle" >{form.selectPlainText}</span>
-                <div className="box-item" >
+                <div className="box-item">
                     <div className="box-item--title">
                         <span className="box-item--type">{plain.type}</span>
                         <h4 className="box-item--name">{plain.name}</h4>
                     </div>
                     <div className="box-item--speed">
-                        <img className="box-item--icon" src={process.env.PUBLIC_URL + '/assets/images/icons/icon-wifi.svg'} alt="wifi icon" />
-                        <strong className="box-item--value">{plain.speed}</strong>
+						<strong className="box-item--value">{plain.speed}</strong>
+						<span className="box-item--wifi">{plain.wifi}</span>
                     </div>
                     <div className="box-item--price">
-                        <span className="box-item--price-format">R$</span>
-                        <span className="box-item--value">{plain.price}</span>
+						<span className="box-item--price-format">R$/M&ecirc;s</span>
+						<span className="box-item--value">{plain.price}</span>
                     </div>
                 </div>
             </div>

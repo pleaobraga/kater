@@ -1,17 +1,19 @@
 .footer{
-    background-color: $footerBg;
     padding: 2rem 0;
-    color: $footerColor;
-    
+    border-top: 1px solid #ecf0f5;
+	color: $footerColor;
+    background-color: $footerBg;
+	
     .text-content{
         &--title{
-            margin-bottom: .7rem;
-            font-size: 1.3rem;
+            margin-bottom: .5rem;
+            font-size: 2rem;
         }
 
         &--subtitle {
-            font-size: 1rem;
+            font-size: 1.2rem;
             color: $footerColorLight;
+			opacity: 0.75;
         }
     }
 

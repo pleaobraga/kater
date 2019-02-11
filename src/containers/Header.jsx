@@ -52,7 +52,7 @@ class Header extends React.Component {
             <header className="header-mobile">
                  <div className="container--content container--content_spread container--content_center">
                         <Link className="header-mobile--logo" to="/" >
-                            <img src={process.env.PUBLIC_URL + '/assets/images/kater.jpg'} alt="Logo" />
+                            <img src={process.env.PUBLIC_URL + '/assets/images/logo-cmdnet.jpg'} alt="Logo" />
                         </Link>
                         <div className="menu">
                             <a href={header.static.link} target="blank" className="header-nav-mobile--link">{header.static.name}</a>
@@ -90,7 +90,7 @@ class Header extends React.Component {
                 <div className="container">
                     <div className="container--content container--content_spread">
                         <Link className="header-logo" to="/" >
-                            <img src={process.env.PUBLIC_URL + '/assets/images/kater.jpg'} alt="Logo" />
+                            <img src={process.env.PUBLIC_URL + '/assets/images/logo-cmdnet.jpg'} alt="Logo" />
                         </Link>
                         <nav className="header-nav">
                             <ul className="header-nav-list">

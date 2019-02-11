@@ -28,7 +28,7 @@ class SignUp extends Component {
         if (!this.refs.inputEmail.value || !this.refs.inputName.value || !this.state.terms) {
             this.setState({
                 feedback: {
-                    message: 'Ops! Por favor, preencha os campos, aceite o regulamento e tente novamente.',
+                    message: 'Ops! Por favor, preencha os campos!',
                     isVisible: true,
                     status: 'error'
                 },
@@ -60,7 +60,7 @@ class SignUp extends Component {
                 } else if (response.status === 201) {
                     this.setState({
                         feedback: {
-                            message: 'Cadastro realizado com sucesso.',
+                            message: 'Enviado com sucesso.',
                             isVisible: true,
                             status: 'success'
                         },
@@ -192,7 +192,7 @@ class SignUp extends Component {
 
                         <div className="form-group">
                             <div>
-                                <button type="submit" className="btn btn--submit">enviar</button>
+                                <button type="submit" className="btn btn--submit">Enviar!</button>
                             </div>
 
                             <Feedback text={this.state.feedback.message}/>

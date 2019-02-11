@@ -35,10 +35,19 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	color: #1a5492;
 }
 blockquote, q {
 	quotes: none;
+}
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+	letter-spacing: -1px;
+	text-transform: none !important;
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'Noto Sans', sans-serif;
+	text-transform: none !important;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {

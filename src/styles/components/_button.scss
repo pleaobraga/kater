@@ -11,17 +11,56 @@
     width: 100%;
 
     &--primary{
-        background-color: $btnPrimaryBg;
         color: $btnPrimaryColor;
         text-transform: uppercase;
         font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+		font-size: 1.2rem;
+		border-radius: 5px;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: .025em;
+		text-decoration: none;
+		padding: 2rem 3rem;
+		background-color: #3db5a2;
+		-webkit-transition: all ease .4s;
+		-ms-transition: all ease .4s;
+		transition: all ease .4s;
+		border: 1px solid #3db5a2;
     }
+	&--primary:hover{
+			background-color: #fff;
+			-webkit-transition: all ease .4s;
+			-ms-transition: all ease .4s;
+			transition: all ease .4s;
+			color: #3db5a2;
+	}
 
     &--submit{
-        background-color: $btnSubmitBg;
-        box-shadow: 0 3px 0 $btnSubmitShadow;   
-        color: $btnSubmitColor;
-        text-transform: uppercase;
-        font-weight: bold;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+		font-size: 1.2rem;
+		border-radius: 5px;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: .025em;
+		text-decoration: none;
+		padding: 2rem 3rem;
+		background-color: #3db5a2;
+		-webkit-transition: all ease .4s;
+		-o-transition: all ease .4s;
+		transition: all ease .4s;
+		border: 1px solid #3db5a2;
     }
+    &--submit:hover{
+		background-color: #fff;
+		-webkit-transition: all ease .4s;
+		-ms-transition: all ease .4s;
+		transition: all ease .4s;
+		color: #3db5a2;
+	}
 }

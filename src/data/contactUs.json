@@ -1,14 +1,15 @@
 {
     "contactUs": {
-        "title": "Soluções em internet com fibra ótica",
-        "subtitle": "A solução completa para quem precisa de velocidade e segurança",
+        "title": "11 ANOS EM MAIS DE 30 CIDADES",
+        "subtitle": "Assine CMDNet e tenha melhor experiência de velocidade",
         "img": "/assets/images/banner.jpg",
 
 
         "card": {
-            "title": "Fale Conosco",
+            "subtitle": "Dúvidas? Vamos conversar!",
+			"title": "Fale conosco",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat perferendis, illum nam esse blanditiis, obcaecati inventore, numquam quidem reiciendis quibusdam fugit quia est! Pariatur voluptas nisi consequatur dicta facilis voluptatum in, magni sit rem ullam a suscipit? Consequuntur inventore consectetur velit totam blanditiis omnis voluptates non facere est quas, quos magni deleniti vel repudiandae quod, sint possimus accusantium doloribus a asperiores ratione! Laudantium totam ipsa exercitationem at eveniet, error tenetur. Repudiandae placeat odit accusantium ab commodi quaerat? Tempore, sequi non ut omnis libero officia architecto quam vitae voluptatibus repellendus natus voluptas error consectetur atque ratione voluptatum harum, iste dolor?<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, cum dolore delectus ea voluptas beatae itaque nesciunt sit blanditiis consequatur sunt reprehenderit, nostrum quam cupiditate sapiente eum labore eligendi assumenda ex illo animi pariatur harum magnam ipsum. Numquam veniam ea eum ut voluptate ipsa eius dicta illum ipsam expedita quia, eligendi aut doloremque nostrum perferendis quod sit ex earum dignissimos impedit quasi maiores esse placeat. Qui, rem esse sapiente illum maxime unde rerum delectus laudantium a, voluptate accusantium. Praesentium aut adipisci architecto quasi, totam numquam? Aspernatur vero assumenda amet totam, impedit laboriosam enim ea porro tenetur fuga esse perferendis architecto. Vero temporibus magni, a ipsa dolores sit aliquid veniam nemo doloremque hic et, veritatis velit autem illum aperiam molestias voluptates libero, beatae perferendis voluptatibus accusamus repellendus esse reiciendis! Tenetur dolor animi ullam culpa harum quae nesciunt ducimus reiciendis aliquid autem voluptas doloribus possimus enim iusto commodi voluptate tempora, atque accusamus!",
-            "cta": "Enviar",
+            "cta": "Enviar!",
 
             "listItens": [
                 "text",
@@ -20,7 +21,7 @@
                 "itens": [
                     {
                         "type": "input",
-                        "label": "Name",
+                        "label": "Seu nome:",
                         "id":"name",
                         "inputType": "text",
                         "required": true,
@@ -30,7 +31,7 @@
                     },
                     {
                         "type": "input",
-                        "label": "E-mail",
+                        "label": "Seu e-mail:",
                         "id":"email",
                         "inputType": "email",
                         "required": true,
@@ -40,7 +41,7 @@
                     },
                     {
                         "type": "phone",
-                        "label": "Telefone",
+                        "label": "Seu telefone:",
                         "id":"phone",
                         "required": true,
                         "name": "phone"
@@ -48,22 +49,34 @@
                     },
                     {
                         "type": "select",
-                        "label": "Motivo do contato",
+                        "label": "O motivo do seu contato:",
                         "id":"reason",
                         "required": true,
                         "name": "reason",
                         "options": [
                             {
+                                "text": "Dúvidas"
+                            }
+							,
+                            {
                                 "text": "Motivo 1"
-                            },
+                            }
+							,
                             {
                                 "text": "Motivo 2"
+                            }
+							,
+                            {
+                                "text": "Motivo 3"
+                            },
+                            {
+                                "text": "Não encontrei minha cidade!"
                             }
                         ]
                     },
                     {
                         "type": "textarea",
-                        "label": "Mensagem",
+                        "label": "Sua mensagem:",
                         "id":"mensagem",
                         "required": true,
                         "placeholder": "",
@@ -72,7 +85,7 @@
                     }
                 ],
 
-                "cta": "Enviar"
+                "cta": "Enviar!"
             }
         }
 
