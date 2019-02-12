@@ -148,9 +148,10 @@ class Form extends React.Component {
     window.emailjs.send("gmail", templateID, formatedData).then(
       function(response) {
         console.log("SUCCESS!", response.status, response.text);
+        window.location = "/";
       },
       function(error) {
-        console.log("FAILED...", error);
+        alert("FAILED...", error);
       },
     );
   };
