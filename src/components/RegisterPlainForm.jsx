@@ -26,7 +26,7 @@ const RegisterPlainForm = ({form, plain}) => {
             </div>
 
             <div className="select-plain-form--register-form" >
-                <Form form={form} />
+                <Form form={form} plainData={plain} />
             </div>
         </div>
     )

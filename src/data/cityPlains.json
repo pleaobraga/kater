@@ -1,1818 +1,1574 @@
 {
-    "cityList": {
-        "conceicao-do-mato-dentro" : {
-
-            "name": "conceicao-do-mato-dentro",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Conceição do Mato Dentro, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-		
-        "conceicao-do-mato-dentro-distritos" : {
-
-            "name": "conceicao-do-mato-dentro-distritos",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Conceição do Mato Dentro, MG - Distritos",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-		
-
-
-
-
-
-
-
-
-
-
-
-		
-		
-		
-		
-		
-        "presidente-kubitschek" : {
-
-            "name": "Presidente Kubitschek, MG",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Presidente Kubitschek, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-        "congonhas-do-norte" : {
-
-            "name": "Congonhas do Norte, MG",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Congonhas do Norte, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-        "senhora-do-porto" : {
-
-            "name": "Senhora do Porto, MG",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Senhora do Porto, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-        "alvorada-de-minas" : {
-
-            "name": "Alvorada de Minhas, MG",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Alvorada de Minhas, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-        "datas" : {
-
-            "name": "Datas, MG",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Datas, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-        "morro-do-pilar" : {
-
-            "name": "Morro do Pilar, MG",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Morro do Pilar, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-        "santo-antonio-do-itambe" : {
-
-            "name": "Santo Antônio do Itambé, MG",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Santo Antônio do Itambé, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-        "serra-azul-de-minas" : {
-
-            "name": "Serra Azul de Minas, MG",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Serra Azul de Minas, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-		
-        "gouveia" : {
-
-            "name": "gouveia",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Gouveia, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-
-
-
-
-
-
-
-
-
-
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-        "serro" : {
-
-            "name": "Serro",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Serro, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-		
-        "diamantina" : {
-
-            "name": "Diamantina",
-
-            "banner": {
-                "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
-                "subtitle": "Mais velocidade e estabilidade para a sua conexão",
-                "img": "/assets/images/cidadebg.png"
-            },
-
-            "card": {
-                "title":  "Diamantina, MG",
-                "subtitle": "Nossos planos",
-                "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
-                "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
-
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos residenciais de internet fibra ótica",
-    
-                        "plainList": [
-                            {
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",                                
-                                "speed": "5 MEGA",
-                                "price": "79,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-                                "price": "99,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "149,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "80 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Residencial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "249,00"
-                            }
-
-                        ]
-                    },
-    
-                    {
-                        "title": "Planos comerciais de internet fibra ótica",
-    
-                        "plainList": [
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "10 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "119,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "20 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "139,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "30 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "159,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "50 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "199,00"
-                            },
-							{
-                                "type": "Comercial",
-                                "name": "Fibra Ótica",
-                                "speed": "100 MEGA",
-								"wifi": "+WI-FI GRÁTIS",
-                                "price": "299,00"
-                            }
-                        ]
-                    }   
-                ]
-            }
-        },
-
-        "contagem" : {
-
-            "name": "Contagem",
-
-            "banner": {
-                "title": "Soluções em internet com fibra ótica",
-                "subtitle": "A solução completa para quem precisa de velocidade e segurança",
-                "img": "/assets/images/banner.jpg"
-            },
-
-            "card": {
-                "title": "Contagem",
-				"subtitle": "Nossos planos",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat perferendis, illum nam esse blanditiis, obcaecati inventore, numquam quidem reiciendis quibusdam.",
-                
-                "typesPlain": [
-                    
-                    {
-                        "title": "Planos de Internet Rural",
-    
-                        "plainList": [
-                            {
-                                "type": "Rural",
-                                "name": "Fibra Ótica",                                
-                                "speed": "2 MEGA",
-                                "price": "69,00"
-                            },
-                            {
-                                "type": "Rural",
-                                "name": "Fibra Ótica",                                
-                                "speed": "3 MEGA",
-                                "price": "99,00"
-                            }
-                        ]
-                    }
-   
-                ]
-            }
-        }
+  "cityList": {
+    "conceicao-do-mato-dentro": {
+      "name": "conceicao-do-mato-dentro",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Conceição do Mato Dentro, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
     },
 
-    "registerForm": {
+    "conceicao-do-mato-dentro-distritos": {
+      "name": "conceicao-do-mato-dentro-distritos",
 
-        "title": "Consulte disponibilidade:",
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
 
-        "selectPlainText": "Plano selecionado:",
+      "card": {
+        "title": "Conceição do Mato Dentro, MG - Distritos",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
 
-        "itens": [
-            {
-                "type": "input",
-                "label": "Seu nome:",
-                "id":"name",
-                "inputType": "text",
-                "required": true,
-                "placeholder": "",
-                "name": "name"
-            },
-            {
-                "type": "input",
-                "label": "Seu e-mail:",
-                "id":"email",
-                "inputType": "email",
-                "required": true,
-                "placeholder": "",
-                "name": "email"
-            },
-            {
-                "type": "phone",
-                "label": "Telefone",
-                "id":"phone",
-                "required": true,
-                "name": "phone"
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
 
-            },
-            {
-                "type": "input",
-                "label": "Cidade",
-                "id":"cidade",
-                "inputType": "text",
-                "required": true,
-                "placeholder": "",
-                "name": "cidade",
-                "disabled": true
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
 
-            }
-           
-        ],
+          {
+            "title": "Planos comerciais de internet fibra ótica",
 
-        "cta": "Consultar disponibilidade!"
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    "presidente-kubitschek": {
+      "name": "Presidente Kubitschek, MG",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Presidente Kubitschek, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "congonhas-do-norte": {
+      "name": "Congonhas do Norte, MG",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Congonhas do Norte, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "senhora-do-porto": {
+      "name": "Senhora do Porto, MG",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Senhora do Porto, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "alvorada-de-minas": {
+      "name": "Alvorada de Minhas, MG",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Alvorada de Minhas, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "datas": {
+      "name": "Datas, MG",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Datas, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "morro-do-pilar": {
+      "name": "Morro do Pilar, MG",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Morro do Pilar, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "santo-antonio-do-itambe": {
+      "name": "Santo Antônio do Itambé, MG",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Santo Antônio do Itambé, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "serra-azul-de-minas": {
+      "name": "Serra Azul de Minas, MG",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Serra Azul de Minas, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    "gouveia": {
+      "name": "gouveia",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Gouveia, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    "serro": {
+      "name": "Serro",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Serro, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    "diamantina": {
+      "name": "Diamantina",
+
+      "banner": {
+        "title": "ATÉ 100 MEGA + WI-FI GRÁTIS",
+        "subtitle": "Mais velocidade e estabilidade para a sua conexão",
+        "img": "/assets/images/cidadebg.png"
+      },
+
+      "card": {
+        "title": "Diamantina, MG",
+        "subtitle": "Nossos planos",
+        "content": "Planos de internet para navegar e interagir nas redes sociais, postar fotos e vídeos, assistir filmes e séries, ouvir músicas e muito mais! Escolha um plano e consulte disponibilidade!",
+        "contentcomplete": "Para Planos de 5MB, 7MB e 10MB o valor do aluguel do roteador para WI-FI é de R$6,90,00",
+
+        "typesPlain": [
+          {
+            "title": "Planos residenciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "5 MEGA",
+                "price": "79,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "price": "99,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "149,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "80 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Residencial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "249,00"
+              }
+            ]
+          },
+
+          {
+            "title": "Planos comerciais de internet fibra ótica",
+
+            "plainList": [
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "10 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "119,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "20 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "139,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "30 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "159,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "50 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "199,00"
+              },
+              {
+                "type": "Comercial",
+                "name": "Fibra Ótica",
+                "speed": "100 MEGA",
+                "wifi": "+WI-FI GRÁTIS",
+                "price": "299,00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    "contagem": {
+      "name": "Contagem",
+
+      "banner": {
+        "title": "Soluções em internet com fibra ótica",
+        "subtitle": "A solução completa para quem precisa de velocidade e segurança",
+        "img": "/assets/images/banner.jpg"
+      },
+
+      "card": {
+        "title": "Contagem",
+        "subtitle": "Nossos planos",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat perferendis, illum nam esse blanditiis, obcaecati inventore, numquam quidem reiciendis quibusdam.",
+
+        "typesPlain": [
+          {
+            "title": "Planos de Internet Rural",
+
+            "plainList": [
+              {
+                "type": "Rural",
+                "name": "Fibra Ótica",
+                "speed": "2 MEGA",
+                "price": "69,00"
+              },
+              {
+                "type": "Rural",
+                "name": "Fibra Ótica",
+                "speed": "3 MEGA",
+                "price": "99,00"
+              }
+            ]
+          }
+        ]
+      }
     }
+  },
+
+  "registerForm": {
+    "title": "Consulte disponibilidade:",
+
+    "selectPlainText": "Plano selecionado:",
+
+    "itens": [
+      {
+        "type": "input",
+        "label": "Seu nome:",
+        "id": "name",
+        "inputType": "text",
+        "required": true,
+        "placeholder": "",
+        "name": "name"
+      },
+      {
+        "type": "input",
+        "label": "Seu e-mail:",
+        "id": "email",
+        "inputType": "email",
+        "required": true,
+        "placeholder": "",
+        "name": "email"
+      },
+      {
+        "type": "phone",
+        "label": "Telefone",
+        "id": "phone",
+        "required": true,
+        "name": "phone"
+      },
+      {
+        "type": "input",
+        "label": "Cidade",
+        "id": "city",
+        "inputType": "text",
+        "required": true,
+        "placeholder": "",
+        "name": "cidade",
+        "disabled": true
+      }
+    ],
+
+    "cta": "Consultar disponibilidade!"
+  }
 }
