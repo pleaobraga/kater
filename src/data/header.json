@@ -1,27 +1,31 @@
 {
-    "header": {
-        "menuList":[
-            {
-                "name": "Quem somos",
-                "link": "/quem-somos",
-                "externalLink": false
-            },
-            {
-                "name": "Onde estamos",
-                "link": "/onde-estamos",
-                "externalLink": false
-            },
-            {
-                "name": "Nossos planos",
-                "link": "/nossos-planos",
-                "externalLink": false
-            }
-        ],
-        "static": {
-            "name": "Area do assinante",
-            "link": "/quem-somos",
-            "externalLink": true
-        }
+  "header": {
+    "menuList": [
+      {
+        "name": "Quem somos",
+        "link": "/quem-somos",
+        "externalLink": false
+      },
+      {
+        "name": "Onde estamos",
+        "link": "/onde-estamos",
+        "externalLink": false
+      },
+      {
+        "name": "Nossos planos",
+        "link": "/nossos-planos",
+        "externalLink": false
+      },
+      {
+        "name": "FAQ",
+        "link": "https://google.com.br",
+        "externalLink": true
+      }
+    ],
+    "static": {
+      "name": "Area do assinante",
+      "link": "/quem-somos",
+      "externalLink": true
     }
-    
+  }
 }

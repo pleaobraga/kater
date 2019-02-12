@@ -4,13 +4,15 @@ import { cityList, registerForm } from '../data/cityPlains.json'
 
 
 class ContractPage extends React.Component {
-
-
   constructor(props) {
     super(props)
     this.state = {
       selectedPlain: {}
     }
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
   }
 
   selectPlain = (plain) =>  {

@@ -1,19 +1,26 @@
-import React from 'react';
-import { SecondaryBanner, CardCityList } from '../components'
-import { contract } from '../data/contract.json';
+import React from "react";
+import { SecondaryBanner, CardCityList } from "../components";
+import { contract } from "../data/contract.json";
 
+class ContractPage extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
-const ContractPage = ({classesName}) => {
-  return (
-    <section className={`section section-where where ${classesName}`}>
-       <SecondaryBanner  banner={contract} />
-        <CardCityList card={contract.card} />     
-    </section>
-  );
-};
+  render() {
+    return (
+      <section
+        className={`section section-where where ${this.props.classesName}`}
+      >
+        <SecondaryBanner banner={contract} />
+        <CardCityList card={contract.card} />
+      </section>
+    );
+  }
+}
 
 ContractPage.defaultProps = {
-  classesName: ""
-}
+  classesName: "",
+};
 
 export default ContractPage;
